@@ -2,5 +2,5 @@ import React from 'react';
 import { Loading } from './loading';
 
 export const BasicLoading = () => (
-  <Loading text="hello from Loading" />
+  <Loading/>
 );

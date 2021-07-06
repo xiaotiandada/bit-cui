@@ -1,16 +1,10 @@
 import React from 'react';
+import styles from './loading.module.scss';
 
-export type LoadingProps = {
-  /**
-   * a text to be rendered in the component.
-   */
-  text: string
-};
+export type LoadingProps = {};
 
-export function Loading({ text }: LoadingProps) {
+export function Loading() {
   return (
-    <div>
-      {text}
-    </div>
+    <span className={styles.dotting}></span>
   );
 }
