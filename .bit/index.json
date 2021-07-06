@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/button"
+      },
+      "isSymlink": true,
+      "hash": "6e10f814d61b688ebc8b59fb617ad611ff01d70c"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/card"
+      },
+      "isSymlink": true,
+      "hash": "ed61e861cd457fc2f8bbfe214c116b7a575b28bb"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/loading"
+      },
+      "isSymlink": true,
+      "hash": "a55fafde3c541b46172ce3d39da56ce01850d821"
+    },
+    {
+      "id": {
+        "scope": "xiaotiandada.cui",
+        "name": "ui/button"
+      },
+      "isSymlink": false,
+      "hash": "3a93491ae9412e72561908cc4d06c54aedaf214e"
+    },
+    {
+      "id": {
+        "scope": "xiaotiandada.cui",
+        "name": "ui/card"
+      },
+      "isSymlink": false,
+      "hash": "3eb39435b9b73a655a20d9dbec84fc426cdb5782"
+    },
+    {
+      "id": {
+        "scope": "xiaotiandada.cui",
+        "name": "ui/loading"
+      },
+      "isSymlink": false,
+      "hash": "25f939798dd026ba872ac513cfe174c0a6d5be04"
+    }
+  ],
+  "lanes": []
+}
