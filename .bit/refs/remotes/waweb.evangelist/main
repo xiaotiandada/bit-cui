@@ -1,0 +1,30 @@
+[
+  {
+    "id": {
+      "scope": "waweb.evangelist",
+      "name": "marketing/community-links/slack-link"
+    },
+    "head": "16a8f15a427fb63ef3c57409d8d729cb618c3802"
+  },
+  {
+    "id": {
+      "scope": "waweb.evangelist",
+      "name": "elements/icon"
+    },
+    "head": "a429512e06a5cc88e14c2d3ae8cba2722d2ad69b"
+  },
+  {
+    "id": {
+      "scope": "waweb.evangelist",
+      "name": "marketing/community-links/community-link"
+    },
+    "head": "c5e9f592b5fe264fc8dcf9819f485b685154a933"
+  },
+  {
+    "id": {
+      "scope": "waweb.evangelist",
+      "name": "theme/brands"
+    },
+    "head": "59f6525c459de80599ccd7ada859cced99cb18ab"
+  }
+]

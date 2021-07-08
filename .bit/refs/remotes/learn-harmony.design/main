@@ -1,0 +1,93 @@
+[
+  {
+    "id": {
+      "scope": "learn-harmony.design",
+      "name": "dropdown"
+    },
+    "head": "62ef3511559ef7872e14d907cd24cb32e2f41d7a"
+  },
+  {
+    "id": {
+      "scope": "learn-harmony.design",
+      "name": "avatar"
+    },
+    "head": "5db4d9e84ee105271ac3a8320eb071e01b51b18d"
+  },
+  {
+    "id": {
+      "scope": "learn-harmony.design",
+      "name": "colors-by-letter"
+    },
+    "head": "9f0eb8a1fef3a086cf1058dfbb4383f2eaff3ab1"
+  },
+  {
+    "id": {
+      "scope": "learn-harmony.design",
+      "name": "styles/theme"
+    },
+    "head": "ff25b2e2faf53d2614e0a593e7c39e4855f58c57"
+  },
+  {
+    "id": {
+      "scope": "learn-harmony.design",
+      "name": "styles/colors/primary-color-palette"
+    },
+    "head": "fcce32601e74647e593dc060d60761a20beaf724"
+  },
+  {
+    "id": {
+      "scope": "learn-harmony.design",
+      "name": "styles/colors/colors"
+    },
+    "head": "f3f815eabf760ca4a6af4664f2bb456b342df4a5"
+  },
+  {
+    "id": {
+      "scope": "learn-harmony.design",
+      "name": "styles/fonts/book"
+    },
+    "head": "1def27843f3ccf80063201872a27ee29caf305a9"
+  },
+  {
+    "id": {
+      "scope": "learn-harmony.design",
+      "name": "styles/sizes/size-definition"
+    },
+    "head": "7ac02b7af0cf10005be89056412f6c3f722a695f"
+  },
+  {
+    "id": {
+      "scope": "learn-harmony.design",
+      "name": "button"
+    },
+    "head": "ae2c4c5040a1ebbc097f9004e6aae7f8e3192884"
+  },
+  {
+    "id": {
+      "scope": "learn-harmony.design",
+      "name": "styles/colors/dark-color-palette"
+    },
+    "head": "179b860b145d99ebd49d21d9184cc69249c028e5"
+  },
+  {
+    "id": {
+      "scope": "learn-harmony.design",
+      "name": "check-box"
+    },
+    "head": "9ff646903a14912faf0dd5d16c194b8d6dfd4d21"
+  },
+  {
+    "id": {
+      "scope": "learn-harmony.design",
+      "name": "styles/characteristics/hoverable"
+    },
+    "head": "48b7150a3c11d7243dc06c99ff98072fda179d73"
+  },
+  {
+    "id": {
+      "scope": "learn-harmony.design",
+      "name": "styles/transitions/menu-transition"
+    },
+    "head": "b5331e06bac456192ead68dda0588e1115453b91"
+  }
+]

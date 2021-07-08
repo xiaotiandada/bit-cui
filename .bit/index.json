@@ -63,6 +63,438 @@
       },
       "isSymlink": false,
       "hash": "f1aed07c36c81d82a5103ee9122705c0fd5acb8d"
+    },
+    {
+      "id": {
+        "scope": "waweb.evangelist",
+        "name": "marketing/community-links/slack-link"
+      },
+      "isSymlink": false,
+      "hash": "97c0ae24ae8189a15d56fe67ae9fe15602a88fc1"
+    },
+    {
+      "id": {
+        "scope": "waweb.evangelist",
+        "name": "elements/icon"
+      },
+      "isSymlink": false,
+      "hash": "5d866a107ade5ea8b74eab08b73d964e9aa15b14"
+    },
+    {
+      "id": {
+        "scope": "waweb.evangelist",
+        "name": "marketing/community-links/community-link"
+      },
+      "isSymlink": false,
+      "hash": "7b3e1125eaa878ce5c1bce5319087a90d786a22b"
+    },
+    {
+      "id": {
+        "scope": "waweb.base-ui",
+        "name": "elements/link"
+      },
+      "isSymlink": false,
+      "hash": "e268dec859a0db0275fbb444439fbe051306a3f3"
+    },
+    {
+      "id": {
+        "scope": "waweb.base-ui",
+        "name": "theme/theme-provider"
+      },
+      "isSymlink": false,
+      "hash": "a278b0a7de5232f8c56892cd84e05f745eff0679"
+    },
+    {
+      "id": {
+        "scope": "waweb.evangelist",
+        "name": "theme/brands"
+      },
+      "isSymlink": false,
+      "hash": "6adc7b21c73b33e4c6a1ea23b29b4e940f0cab5c"
+    },
+    {
+      "id": {
+        "scope": "waweb.base-ui",
+        "name": "elements/icon"
+      },
+      "isSymlink": false,
+      "hash": "101c41417720650c5cfba931fb028b55d57c2096"
+    },
+    {
+      "id": {
+        "scope": "teambit.design",
+        "name": "theme/icons-font"
+      },
+      "isSymlink": false,
+      "hash": "090a25e990dafa9b2cbe5a8a7dd5fd8b67ab2daf"
+    },
+    {
+      "id": {
+        "scope": "waweb.base-ui",
+        "name": "theme/brand-definition"
+      },
+      "isSymlink": false,
+      "hash": "5bf52b016e01bb0ce97cca29ef835bf170f87fdd"
+    },
+    {
+      "id": {
+        "scope": "waweb.base-ui",
+        "name": "theme/color-definition"
+      },
+      "isSymlink": false,
+      "hash": "457c774fc7d4b88b72899ba54df4bec4a9325657"
+    },
+    {
+      "id": {
+        "scope": "waweb.base-ui",
+        "name": "theme/fonts/clean"
+      },
+      "isSymlink": false,
+      "hash": "ca437de484b5ca19f949fb3ca8c2293c35f39ef3"
+    },
+    {
+      "id": {
+        "scope": "waweb.base-ui",
+        "name": "theme/heading-margin-definition"
+      },
+      "isSymlink": false,
+      "hash": "c9e7c3a6e88509247fbc9629ece32dd51e9eeff6"
+    },
+    {
+      "id": {
+        "scope": "waweb.base-ui",
+        "name": "theme/shadow-definition"
+      },
+      "isSymlink": false,
+      "hash": "9f75d73287a5a538af9573550ab48224337ef4e4"
+    },
+    {
+      "id": {
+        "scope": "waweb.base-ui",
+        "name": "theme/size-definition"
+      },
+      "isSymlink": false,
+      "hash": "ac8522e06d1fd902da843f02cd2bcbb693902115"
+    },
+    {
+      "id": {
+        "scope": "waweb.base-ui",
+        "name": "theme/colors"
+      },
+      "isSymlink": false,
+      "hash": "f49fc43e27001b275072ae43f85dd4d402c154f1"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.design",
+        "name": "dropdown"
+      },
+      "isSymlink": false,
+      "hash": "ef4890794abbabb38465c07a903af786368b3640"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.base-ui",
+        "name": "surfaces/drawer"
+      },
+      "isSymlink": false,
+      "hash": "d3a2f0d42913f5347fab70c5d3cb1225706951ea"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.base-ui",
+        "name": "hooks/use-click-outside"
+      },
+      "isSymlink": false,
+      "hash": "0a5e4ed58da9b51fdca2f5a465351576a4f7bae0"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.base-ui",
+        "name": "surfaces/abs-container"
+      },
+      "isSymlink": false,
+      "hash": "c8aa5844a19a683773d63dba2f1a245908489358"
+    },
+    {
+      "id": {
+        "scope": "teambit.base-ui",
+        "name": "surfaces/abs-container"
+      },
+      "isSymlink": false,
+      "hash": "31ffde0bb33b04ed987036bb23aee6784f63f81e"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.base-ui",
+        "name": "elements/ellipsis"
+      },
+      "isSymlink": false,
+      "hash": "ed7ce35c4e3e65dbb7d982d0feceb5bcbf55a37e"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.design",
+        "name": "avatar"
+      },
+      "isSymlink": false,
+      "hash": "bea92dbaebfa7f0083b6ddae1dd9d480bf7889e7"
+    },
+    {
+      "id": {
+        "scope": "teambit.toolbox",
+        "name": "url/add-avatar-query-params"
+      },
+      "isSymlink": false,
+      "hash": "76f3fc573280ffe19d723c72ba4fc140ee457810"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.base-ui",
+        "name": "utils/get-initials"
+      },
+      "isSymlink": false,
+      "hash": "3f9a0be572e8f389bdae236b174aef412e504c68"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.design",
+        "name": "colors-by-letter"
+      },
+      "isSymlink": false,
+      "hash": "122e75df56662f7fdbd7491f7a056a965f74eee7"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.design",
+        "name": "styles/theme"
+      },
+      "isSymlink": false,
+      "hash": "3e18fa10d43c1c710d4551b1639325949fad02fc"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.base-ui",
+        "name": "theme-provider"
+      },
+      "isSymlink": false,
+      "hash": "60eef8d274152579fae1ed99c58a03536c61bb4f"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.design",
+        "name": "styles/colors/primary-color-palette"
+      },
+      "isSymlink": false,
+      "hash": "6249ac97752c67d989d2ca74edc6a10b80870b72"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.design",
+        "name": "styles/colors/colors"
+      },
+      "isSymlink": false,
+      "hash": "a704450465d7e271360d984467395e1190b92ea7"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.design",
+        "name": "styles/fonts/book"
+      },
+      "isSymlink": false,
+      "hash": "dd74b37462a78d02bb95c46d135bb85fa645fd3c"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.design",
+        "name": "styles/sizes/size-definition"
+      },
+      "isSymlink": false,
+      "hash": "8e9fc8e5cf2d9a5ccbb5e2bd54711cab12763cf3"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.design",
+        "name": "button"
+      },
+      "isSymlink": false,
+      "hash": "2b68064fb81c0e2733ecdf6c668ab75a7af47b4e"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.base-ui",
+        "name": "elements/inputs/button"
+      },
+      "isSymlink": false,
+      "hash": "fef0d64f9e595b43cf21e6b82fd2b9de555dbf73"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.base-ui",
+        "name": "elements/dots-loader"
+      },
+      "isSymlink": false,
+      "hash": "0e82a1ec658b20e29d76addc1a210930dfeb663b"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.design",
+        "name": "styles/colors/dark-color-palette"
+      },
+      "isSymlink": false,
+      "hash": "54b9ed9d3fe34f24a93f2f0eb073eb446de748a2"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.design",
+        "name": "check-box"
+      },
+      "isSymlink": false,
+      "hash": "b6eb450b16d4587aaa3b17bd6f46ec2a378e723e"
+    },
+    {
+      "id": {
+        "scope": "teambit.documenter",
+        "name": "theme/theme-context"
+      },
+      "isSymlink": false,
+      "hash": "f2eb682b13e32dfaf7a8c4b3132339f57526ae24"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.design",
+        "name": "styles/characteristics/hoverable"
+      },
+      "isSymlink": false,
+      "hash": "39f293c5024b6f8a8780cbb2bbc6e3137b8f83c2"
+    },
+    {
+      "id": {
+        "scope": "learn-harmony.design",
+        "name": "styles/transitions/menu-transition"
+      },
+      "isSymlink": false,
+      "hash": "0aba304de5d68f71f7157ef20c3e6e99225d2f34"
+    },
+    {
+      "id": {
+        "scope": "teambit.base-ui",
+        "name": "theme/fonts/roboto"
+      },
+      "isSymlink": false,
+      "hash": "919e9446b28eb9c67f1c1589f74fd0080c242a44"
+    },
+    {
+      "id": {
+        "scope": "teambit.base-ui",
+        "name": "theme/theme-provider"
+      },
+      "isSymlink": false,
+      "hash": "aff8003b3c05f168eb40aa6f78c0829bb3184252"
+    },
+    {
+      "id": {
+        "scope": "teambit.documenter",
+        "name": "ui/label"
+      },
+      "isSymlink": false,
+      "hash": "31bf61ae8d6733d393312996d93850601adc796b"
+    },
+    {
+      "id": {
+        "scope": "teambit.documenter",
+        "name": "theme/theme-compositions"
+      },
+      "isSymlink": false,
+      "hash": "9b465f6d9f605240d7353c519bff395150a79e77"
+    },
+    {
+      "id": {
+        "scope": "teambit.evangelist",
+        "name": "theme/icon-font"
+      },
+      "isSymlink": false,
+      "hash": "9b6de9dea31d37dc5b6e6793d414ae11a9d0c843"
+    },
+    {
+      "id": {
+        "scope": "teambit.documenter",
+        "name": "ui/paragraph"
+      },
+      "isSymlink": false,
+      "hash": "49281f7a79c0a24a02b8f1db580c9737eea8a5e7"
+    },
+    {
+      "id": {
+        "scope": "teambit.base-ui",
+        "name": "text/paragraph"
+      },
+      "isSymlink": false,
+      "hash": "f050ffae25607a81752cfbe7b0e96fe548376a24"
+    },
+    {
+      "id": {
+        "scope": "teambit.base-ui",
+        "name": "theme/sizes"
+      },
+      "isSymlink": false,
+      "hash": "68fa2bfa8937c5abd38a10de9a3d2871e92f785b"
+    },
+    {
+      "id": {
+        "scope": "teambit.base-ui",
+        "name": "theme/brand-definition"
+      },
+      "isSymlink": false,
+      "hash": "1a0cb18dbcb916d6839a91980f31b35f472181ee"
+    },
+    {
+      "id": {
+        "scope": "teambit.base-ui",
+        "name": "theme/colors"
+      },
+      "isSymlink": false,
+      "hash": "5eb7693eef67515fb861c9e6efa8479c23d70927"
+    },
+    {
+      "id": {
+        "scope": "teambit.base-ui",
+        "name": "theme/color-definition"
+      },
+      "isSymlink": false,
+      "hash": "888298325c8520010f7745707a28ac2df1060942"
+    },
+    {
+      "id": {
+        "scope": "teambit.base-ui",
+        "name": "theme/fonts/book"
+      },
+      "isSymlink": false,
+      "hash": "cbc6e0435bcac6c3d3d20923558754f6cfdbb835"
+    },
+    {
+      "id": {
+        "scope": "teambit.base-ui",
+        "name": "theme/heading-margin-definition"
+      },
+      "isSymlink": false,
+      "hash": "07f8e144f4e0af989867ea55a3b3cb310f709ad6"
+    },
+    {
+      "id": {
+        "scope": "teambit.base-ui",
+        "name": "theme/shadow-definition"
+      },
+      "isSymlink": false,
+      "hash": "c73028476d3295e69d73576f76ebf3ba33f62840"
+    },
+    {
+      "id": {
+        "scope": "teambit.base-ui",
+        "name": "theme/size-definition"
+      },
+      "isSymlink": false,
+      "hash": "cbbc2be4c3b9d29fe312b9caff4a349acaeb343e"
     }
   ],
   "lanes": []
