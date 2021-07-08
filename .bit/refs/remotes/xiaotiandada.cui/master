@@ -19,5 +19,12 @@
       "name": "ui/loading"
     },
     "head": "106b8586d381866f744732a67e7fdf8309fb5822"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "ui/layout"
+    },
+    "head": "258128926b024de621c97609cceee52e8a14e6df"
   }
 ]

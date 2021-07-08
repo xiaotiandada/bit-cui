@@ -14,8 +14,8 @@
         "rootDir": "src/components/ui/card"
     },
     "ui/layout": {
-        "scope": "",
-        "version": "",
+        "scope": "xiaotiandada.cui",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "src/components/ui/layout"
     },
@@ -24,6 +24,12 @@
         "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "src/components/ui/loading"
+    },
+    "ui/toggle-button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/ui/toggle-button"
     },
     "$schema-version": "14.9.0"
 }

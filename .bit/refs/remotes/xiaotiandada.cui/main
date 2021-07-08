@@ -1,0 +1,30 @@
+[
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "ui/button"
+    },
+    "head": "e999c4461b438472380375de70cd6f571982ccbf"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "ui/card"
+    },
+    "head": "7020eaa97a47d1304418e7143242cb9c9d074069"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "ui/layout"
+    },
+    "head": "258128926b024de621c97609cceee52e8a14e6df"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "ui/loading"
+    },
+    "head": "106b8586d381866f744732a67e7fdf8309fb5822"
+  }
+]
