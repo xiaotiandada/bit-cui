@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "scope": null,
+    "name": "ui/toggle-button",
+    "version": "0.0.1"
+  },
+  {
+    "scope": null,
+    "name": "nft/card",
+    "version": "0.0.4"
+  }
+]
