@@ -26,5 +26,12 @@
       "name": "ui/loading"
     },
     "head": "106b8586d381866f744732a67e7fdf8309fb5822"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "nft/card"
+    },
+    "head": "a9e6b60b36adaa087345b2556807ed7ff02914b6"
   }
 ]
