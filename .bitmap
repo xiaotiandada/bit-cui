@@ -51,6 +51,12 @@
         "mainFile": "index.ts",
         "rootDir": "src/components/ui/loading"
     },
+    "ui/test": {
+        "scope": "xiaotiandada.cui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/ui/test"
+    },
     "ui/toggle-button": {
         "scope": "",
         "version": "latest",

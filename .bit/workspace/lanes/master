@@ -8,5 +8,10 @@
     "scope": null,
     "name": "nft/card",
     "version": "0.0.4"
+  },
+  {
+    "scope": null,
+    "name": "ui/test",
+    "version": "0.0.1"
   }
 ]
