@@ -38,5 +38,20 @@
     "scope": null,
     "name": "ui/header",
     "version": "0.0.1"
+  },
+  {
+    "scope": "xiaotiandada.cui",
+    "name": "ui/header",
+    "version": "0.0.4"
+  },
+  {
+    "scope": "xiaotiandada.cui",
+    "name": "page/home",
+    "version": "0.0.3"
+  },
+  {
+    "scope": null,
+    "name": "common/icon",
+    "version": "0.0.1"
   }
 ]

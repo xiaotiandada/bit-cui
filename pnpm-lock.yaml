@@ -51,6 +51,8 @@ importers:
       wavesurfer.js: 5.1.0
   src/components/animated/card:
     specifiers: {}
+  src/components/common/icon:
+    specifiers: {}
   src/components/dropdown:
     specifiers: {}
   src/components/marketing/community-links/slack-link:
@@ -64,6 +66,8 @@ importers:
   src/components/ui/button:
     specifiers: {}
   src/components/ui/card:
+    specifiers: {}
+  src/components/ui/header:
     specifiers: {}
   src/components/ui/layout:
     specifiers: {}

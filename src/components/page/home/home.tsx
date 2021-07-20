@@ -6,24 +6,19 @@ import {
   animated,
   Spring,
 } from 'react-spring'
-import styled from 'styled-components'
 import VisibilitySensor from 'react-visibility-sensor'
-// import Header from '../../components/Header/index'
+import { Header } from '@xiaotiandada/cui.ui.header'
 import styles from './home.module.scss'
+
 
 const Item1 = 'https://ipfs.fleek.co/ipfs/bafybeigrryzk6bsj63epwfkyskgzwj4zors53uodywnu2txo3cbktqai3e'
 const Item2 = 'https://ipfs.fleek.co/ipfs/bafybeic6drfj2rnf7em4dqj7tcube43pc2anhb57rwrwnp3hescyrjxrie'
 const Item3 = 'https://ipfs.fleek.co/ipfs/bafybeicwpd4cz6coshivxg2eyfrt2wkib5korzp7vudwhf2xtkzee4zyvq'
 const Item4 = 'https://ipfs.fleek.co/ipfs/bafybeicwpd4cz6coshivxg2eyfrt2wkib5korzp7vudwhf2xtkzee4zyvq'
 
-export type HomeProps = {
-  /**
-   * a text to be rendered in the component.
-   */
-  text: string
-};
+export type HomeProps = {};
 
-export function Home({ text }: HomeProps) {
+export function Home({}: HomeProps) {
   // animated start
   const animatedHead = useSpring({
     from: { backgroundColor: '#fff' },
@@ -58,6 +53,7 @@ export function Home({ text }: HomeProps) {
 
   return (
     <>
+      <Header></Header>
       <animated.section style={{ ...animatedHead }} className={ styles.head }>
         <animated.h1 style={{ ...animatedTitle }} className={ styles.headTitle }>
           Welcome to <a href="">UCenter!</a>

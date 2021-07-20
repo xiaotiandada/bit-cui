@@ -7,6 +7,12 @@
         "mainFile": "index.ts",
         "rootDir": "src/components/animated/card"
     },
+    "common/icon": {
+        "scope": "xiaotiandada.cui",
+        "version": "latest",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/common/icon"
+    },
     "dropdown": {
         "scope": "learn-harmony.design",
         "version": "0.0.4",
@@ -53,7 +59,7 @@
     },
     "ui/header": {
         "scope": "xiaotiandada.cui",
-        "version": "latest",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "src/components/ui/header"
     },
