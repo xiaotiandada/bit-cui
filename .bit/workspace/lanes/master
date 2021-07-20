@@ -18,5 +18,10 @@
     "scope": null,
     "name": "animated/card",
     "version": "0.0.1"
+  },
+  {
+    "scope": "xiaotiandada.cui",
+    "name": "nft/card",
+    "version": "0.0.5"
   }
 ]

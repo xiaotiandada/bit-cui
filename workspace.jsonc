@@ -17,8 +17,6 @@
         "antd": "4.16.8",
         "leva": "0.9.13",
         "lodash": "4.17.21",
-        "prop-types": "15.7.2",
-        "react-avatar": "3.10.0",
         "react-spring": "9.2.3"
       },
       "peerDependencies": {

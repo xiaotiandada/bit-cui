@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from "./card.module.scss";
-import { Button } from 'antd';
-import Avatar from 'react-avatar';
+import { Avatar, Button } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css';
 // import 'antd/es/button/style/index.css'

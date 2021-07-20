@@ -514,14 +514,6 @@
     },
     {
       "id": {
-        "scope": "xiaotiandada.cui",
-        "name": "nft/card"
-      },
-      "isSymlink": false,
-      "hash": "99969d14b75b9a0ccacd35401a235e46f9ad6b78"
-    },
-    {
-      "id": {
         "scope": null,
         "name": "ui/test"
       },
@@ -551,6 +543,14 @@
       },
       "isSymlink": false,
       "hash": "242e9edbd6bfaecab5b1e22f02c9d2025cafd737"
+    },
+    {
+      "id": {
+        "scope": "xiaotiandada.cui",
+        "name": "nft/card"
+      },
+      "isSymlink": false,
+      "hash": "99969d14b75b9a0ccacd35401a235e46f9ad6b78"
     }
   ],
   "lanes": []
