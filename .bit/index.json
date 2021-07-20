@@ -578,14 +578,6 @@
     },
     {
       "id": {
-        "scope": "xiaotiandada.cui",
-        "name": "page/home"
-      },
-      "isSymlink": false,
-      "hash": "5d566c69796cb5b9b2f50ff122a5299446c30e99"
-    },
-    {
-      "id": {
         "scope": null,
         "name": "ui/header"
       },
@@ -615,6 +607,14 @@
       },
       "isSymlink": false,
       "hash": "bf8ff15ce06bef075c61c60a4ae206b9e05b9cb8"
+    },
+    {
+      "id": {
+        "scope": "xiaotiandada.cui",
+        "name": "page/home"
+      },
+      "isSymlink": false,
+      "hash": "5d566c69796cb5b9b2f50ff122a5299446c30e99"
     }
   ],
   "lanes": []

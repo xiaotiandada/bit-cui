@@ -9,7 +9,7 @@
     },
     "common/icon": {
         "scope": "xiaotiandada.cui",
-        "version": "latest",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "src/components/common/icon"
     },
@@ -41,7 +41,7 @@
     },
     "page/home": {
         "scope": "xiaotiandada.cui",
-        "version": "0.0.1",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "src/components/page/home"
     },

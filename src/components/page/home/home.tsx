@@ -10,7 +10,6 @@ import VisibilitySensor from 'react-visibility-sensor'
 import { Header } from '@xiaotiandada/cui.ui.header'
 import styles from './home.module.scss'
 
-
 const Item1 = 'https://ipfs.fleek.co/ipfs/bafybeigrryzk6bsj63epwfkyskgzwj4zors53uodywnu2txo3cbktqai3e'
 const Item2 = 'https://ipfs.fleek.co/ipfs/bafybeic6drfj2rnf7em4dqj7tcube43pc2anhb57rwrwnp3hescyrjxrie'
 const Item3 = 'https://ipfs.fleek.co/ipfs/bafybeicwpd4cz6coshivxg2eyfrt2wkib5korzp7vudwhf2xtkzee4zyvq'
