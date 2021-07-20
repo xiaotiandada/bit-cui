@@ -535,6 +535,22 @@
       },
       "isSymlink": false,
       "hash": "1616ffdd92d0a7220093a1d3fc28adff58d53043"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "animated/card"
+      },
+      "isSymlink": true,
+      "hash": "813fff2bd40387cc889deea6ba1d80ebeea26c39"
+    },
+    {
+      "id": {
+        "scope": "xiaotiandada.cui",
+        "name": "animated/card"
+      },
+      "isSymlink": false,
+      "hash": "242e9edbd6bfaecab5b1e22f02c9d2025cafd737"
     }
   ],
   "lanes": []
