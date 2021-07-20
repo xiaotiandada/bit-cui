@@ -28,5 +28,15 @@
     "scope": "xiaotiandada.cui",
     "name": "nft/card",
     "version": "0.0.6"
+  },
+  {
+    "scope": null,
+    "name": "page/home",
+    "version": "0.0.1"
+  },
+  {
+    "scope": null,
+    "name": "ui/header",
+    "version": "0.0.1"
   }
 ]

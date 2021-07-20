@@ -1,0 +1,53 @@
+.header {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 8px 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  @media screen and (max-width: 576px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.other {
+  display: flex;
+  align-items: center;
+}
+
+.navLink {
+  font-size: 16px;
+  margin: 0 16px;
+  color: #696969;
+  &:hover {
+    color: #333;
+  }
+}
+
+.account {
+  margin-left: 40px;
+}
+
+.accountButton {
+  background-color: #1da1f2;
+  border: 1px solid #1da1f2;
+  padding: 8px 30px;
+  border-radius: 30px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  transition: all .2s;
+  font-weight: bold;
+  &:hover {
+    border-color: #1a91da;
+    background-color: #1a91da;
+  }
+}

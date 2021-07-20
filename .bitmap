@@ -33,6 +33,12 @@
         "mainFile": "index.ts",
         "rootDir": "src/components/nft/card"
     },
+    "page/home": {
+        "scope": "xiaotiandada.cui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/page/home"
+    },
     "ui/button": {
         "scope": "xiaotiandada.cui",
         "version": "0.0.1",
@@ -44,6 +50,12 @@
         "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "src/components/ui/card"
+    },
+    "ui/header": {
+        "scope": "xiaotiandada.cui",
+        "version": "latest",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/ui/header"
     },
     "ui/layout": {
         "scope": "xiaotiandada.cui",
