@@ -20,8 +20,13 @@
     "version": "0.0.1"
   },
   {
+    "scope": null,
+    "name": "nft/audio-render",
+    "version": "0.0.1"
+  },
+  {
     "scope": "xiaotiandada.cui",
     "name": "nft/card",
-    "version": "0.0.5"
+    "version": "0.0.6"
   }
 ]

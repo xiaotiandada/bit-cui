@@ -1,0 +1,1 @@
+[{"filePath":"audio-render.tsx","name":"AudioRender","description":"","properties":[{"name":"src","description":"a text to be rendered in the component.","required":true,"type":"string"},{"name":"mode","description":"simple: 普通播放，all: 支持拖动进度条","required":true,"type":"'simple' | 'all'"}],"access":"public","methods":[],"args":[],"examples":[]}]

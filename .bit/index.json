@@ -546,6 +546,22 @@
     },
     {
       "id": {
+        "scope": null,
+        "name": "nft/audio-render"
+      },
+      "isSymlink": true,
+      "hash": "f713b883301427edee743ee67008e955ab8f8db2"
+    },
+    {
+      "id": {
+        "scope": "xiaotiandada.cui",
+        "name": "nft/audio-render"
+      },
+      "isSymlink": false,
+      "hash": "6fd1dc003c86bb3964c38256a2c43c7ca8e2fecb"
+    },
+    {
+      "id": {
         "scope": "xiaotiandada.cui",
         "name": "nft/card"
       },

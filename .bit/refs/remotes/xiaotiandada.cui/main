@@ -32,7 +32,7 @@
       "scope": "xiaotiandada.cui",
       "name": "nft/card"
     },
-    "head": "a9e6b60b36adaa087345b2556807ed7ff02914b6"
+    "head": "1272ba2760d8f707dc901572af943bd964bc7458"
   },
   {
     "id": {
@@ -40,5 +40,19 @@
       "name": "ui/test"
     },
     "head": "9fc7fc3b063dcc597d1841a1faa0fb7272207b74"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "animated/card"
+    },
+    "head": "ec83b52f6f9450a101b87084c591b8b9440b051d"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "nft/audio-render"
+    },
+    "head": "c38db43e8fab7c67cc4bd82b7b899bbc6a05cfcf"
   }
 ]

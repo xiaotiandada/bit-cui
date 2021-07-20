@@ -21,6 +21,12 @@
         "rootDir": "src/components/marketing/community-links/slack-link",
         "onLanesOnly": true
     },
+    "nft/audio-render": {
+        "scope": "xiaotiandada.cui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/nft/audio-render"
+    },
     "nft/card": {
         "scope": "xiaotiandada.cui",
         "version": "0.0.4",

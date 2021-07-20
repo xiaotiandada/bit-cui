@@ -6,6 +6,8 @@ import 'antd/dist/antd.css';
 // import 'antd/es/button/style/index.css'
 // import 'antd/es/avatar/style/index.css'
 
+import { AudioRender } from '@xiaotiandada/cui.nft.audio-render'
+
 export type CardProps = {
   /**
    * a text to be rendered in the component.
@@ -72,10 +74,7 @@ export function Card({
             className={ styles.mediaVideo }></video>
         ) : type === 'audio' ? (
           <div className={ styles.mediaAudio }>
-            <a href={content} target='_blank' rel='noreferrer'>
-              <Button style={{ margin: '40px 0' }}>Audio Play</Button>
-            </a>
-            {/* <AudioRender src={content!.medium} mode='simple'></AudioRender> */}
+            <AudioRender src={content} mode='simple'></AudioRender>
           </div>
         ) : type === 'text' ? (
           <div className={ styles.mediaText }>
