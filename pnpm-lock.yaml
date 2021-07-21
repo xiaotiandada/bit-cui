@@ -24,6 +24,7 @@ importers:
       '@types/lodash': registry.npmjs.org/@types/lodash/4.14.171
       '@types/node': registry.npmjs.org/@types/node/12.20.4
       '@types/react': registry.npmjs.org/@types/react/17.0.14
+      '@types/react-blockies': registry.npmjs.org/@types/react-blockies/1.4.1
       '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.9
       '@types/testing-library__jest-dom': registry.npmjs.org/@types/testing-library__jest-dom/5.9.5
       '@types/wavesurfer.js': registry.npmjs.org/@types/wavesurfer.js/5.1.0
@@ -36,6 +37,7 @@ importers:
       '@types/lodash': 4.14.171
       '@types/node': 12.20.4
       '@types/react': ^17.0.14
+      '@types/react-blockies': 1.4.1
       '@types/react-dom': ^17.0.9
       '@types/styled-components': 5.1.11
       '@types/testing-library__jest-dom': 5.9.5
@@ -1117,6 +1119,16 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.4.tgz
     version: 15.7.4
+  registry.npmjs.org/@types/react-blockies/1.4.1:
+    dependencies:
+      '@types/react': registry.npmjs.org/@types/react/17.0.14
+    dev: true
+    name: '@types/react-blockies'
+    resolution:
+      integrity: sha512-aDX0g0hwzdodkGLSDNUQr6gXxwclGjnhS8jhsR8uQhAfe/7i3GZD/NDcSlQ2SiQiLhfRxX3NlY+nvBwf5Y0tTg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/react-blockies/-/react-blockies-1.4.1.tgz
+    version: 1.4.1
   registry.npmjs.org/@types/react-dom/17.0.9:
     dependencies:
       '@types/react': registry.npmjs.org/@types/react/17.0.14

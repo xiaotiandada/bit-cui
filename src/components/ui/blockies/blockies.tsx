@@ -1,4 +1,5 @@
 import React from 'react';
+import BlockiesC from 'react-blockies';
 
 export type BlockiesProps = {
   /**
@@ -9,8 +10,14 @@ export type BlockiesProps = {
 
 export function Blockies({ text }: BlockiesProps) {
   return (
-    <div>
-      {text}
-    </div>
+    <BlockiesC
+      seed={ text }
+      size={10}
+      scale={8}
+      color="#dfe"
+      bgColor="#ffe"
+      spotColor="#abc"
+      className="identicon"
+    />
   );
 }

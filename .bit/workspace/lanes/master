@@ -68,5 +68,15 @@
     "scope": null,
     "name": "ui/jazzicons",
     "version": "0.0.1"
+  },
+  {
+    "scope": null,
+    "name": "ui/blockies",
+    "version": "0.0.1"
+  },
+  {
+    "scope": "xiaotiandada.cui",
+    "name": "ui/jazzicons",
+    "version": "0.0.2"
   }
 ]

@@ -46,8 +46,8 @@
         "rootDir": "src/components/page/home"
     },
     "ui/blockies": {
-        "scope": "",
-        "version": "",
+        "scope": "xiaotiandada.cui",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "src/components/ui/blockies"
     },

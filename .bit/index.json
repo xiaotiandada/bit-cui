@@ -642,6 +642,22 @@
     },
     {
       "id": {
+        "scope": null,
+        "name": "ui/blockies"
+      },
+      "isSymlink": true,
+      "hash": "fdba6faa68c2aa27e7fb59852a8e48be55a8030e"
+    },
+    {
+      "id": {
+        "scope": "xiaotiandada.cui",
+        "name": "ui/blockies"
+      },
+      "isSymlink": false,
+      "hash": "94db74c99821d03d27d5fe540f31b0839cbbb16d"
+    },
+    {
+      "id": {
         "scope": "xiaotiandada.cui",
         "name": "ui/jazzicons"
       },
