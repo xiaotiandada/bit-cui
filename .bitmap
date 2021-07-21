@@ -45,6 +45,12 @@
         "mainFile": "index.ts",
         "rootDir": "src/components/page/home"
     },
+    "page/layout-two": {
+        "scope": "xiaotiandada.cui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/page/layout-two"
+    },
     "ui/blockies": {
         "scope": "xiaotiandada.cui",
         "version": "0.0.1",

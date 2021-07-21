@@ -78,5 +78,10 @@
     "scope": "xiaotiandada.cui",
     "name": "ui/jazzicons",
     "version": "0.0.2"
+  },
+  {
+    "scope": null,
+    "name": "page/layout-two",
+    "version": "0.0.1"
   }
 ]
