@@ -7,7 +7,7 @@
       "esnext"
     ],
     "allowJs": false,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -19,10 +19,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
-    "downlevelIteration": true
+    "downlevelIteration": true,
   },
   "include": [
     "src",
-    "index.d.ts"
   ],
 }

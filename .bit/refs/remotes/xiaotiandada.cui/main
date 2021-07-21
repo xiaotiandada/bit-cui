@@ -60,13 +60,34 @@
       "scope": "xiaotiandada.cui",
       "name": "page/home"
     },
-    "head": "000816282b91e3c84b8c346996a148dd46362de0"
+    "head": "1fc79ec6bd20a7e98ba5dd40ad97aedabb0afbed"
   },
   {
     "id": {
       "scope": "xiaotiandada.cui",
       "name": "ui/header"
     },
-    "head": "15091bf8568dd20734098cf5cb9b5f25e2a71e59"
+    "head": "19e3bd4cdeba7cf3f97ea5a0896e7b9598b000d8"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "common/icon"
+    },
+    "head": "7c2b481344bf99273e19d41e0ed0f08390b4e8cb"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "ui/footer"
+    },
+    "head": "659b67d5e29dcae497d028251bfdc7488caf4dba"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "ui/jazzicons"
+    },
+    "head": "097aceaf82d016abc0c1191a530b76d7fd32a666"
   }
 ]

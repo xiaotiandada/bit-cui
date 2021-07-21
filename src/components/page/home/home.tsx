@@ -8,6 +8,7 @@ import {
 } from 'react-spring'
 import VisibilitySensor from 'react-visibility-sensor'
 import { Header } from '@xiaotiandada/cui.ui.header'
+import { Footer } from '@xiaotiandada/cui.ui.footer'
 import styles from './home.module.scss'
 
 const Item1 = 'https://ipfs.fleek.co/ipfs/bafybeigrryzk6bsj63epwfkyskgzwj4zors53uodywnu2txo3cbktqai3e'
@@ -178,7 +179,7 @@ export function Home({}: HomeProps) {
           )}
         </VisibilitySensor>
       </section>
-      <footer className={ styles.footer }>© 2021 Meta Network All Rights Served</footer>
+      <Footer text="© 2021 XiaoTian All Rights Served"></Footer>
     </>
   )
 }

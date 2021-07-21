@@ -610,11 +610,43 @@
     },
     {
       "id": {
+        "scope": null,
+        "name": "ui/footer"
+      },
+      "isSymlink": true,
+      "hash": "e5bbd514e5dcdc0e730c1a5108e845aacd0637d8"
+    },
+    {
+      "id": {
+        "scope": "xiaotiandada.cui",
+        "name": "ui/footer"
+      },
+      "isSymlink": false,
+      "hash": "461d3b7e2abafac95d467723298d7ecaab415b60"
+    },
+    {
+      "id": {
         "scope": "xiaotiandada.cui",
         "name": "page/home"
       },
       "isSymlink": false,
       "hash": "5d566c69796cb5b9b2f50ff122a5299446c30e99"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/jazzicons"
+      },
+      "isSymlink": true,
+      "hash": "7c8253c148707d2a3b051b68ad387be164355b17"
+    },
+    {
+      "id": {
+        "scope": "xiaotiandada.cui",
+        "name": "ui/jazzicons"
+      },
+      "isSymlink": false,
+      "hash": "cadc31420d80ed5414e56dd5e6b00fa93580c6dc"
     }
   ],
   "lanes": []

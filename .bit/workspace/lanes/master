@@ -50,8 +50,23 @@
     "version": "0.0.1"
   },
   {
+    "scope": null,
+    "name": "ui/footer",
+    "version": "0.0.1"
+  },
+  {
+    "scope": "xiaotiandada.cui",
+    "name": "ui/footer",
+    "version": "0.0.2"
+  },
+  {
     "scope": "xiaotiandada.cui",
     "name": "page/home",
-    "version": "0.0.4"
+    "version": "0.0.6"
+  },
+  {
+    "scope": null,
+    "name": "ui/jazzicons",
+    "version": "0.0.1"
   }
 ]

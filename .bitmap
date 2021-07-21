@@ -41,9 +41,15 @@
     },
     "page/home": {
         "scope": "xiaotiandada.cui",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "src/components/page/home"
+    },
+    "ui/blockies": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/ui/blockies"
     },
     "ui/button": {
         "scope": "xiaotiandada.cui",
@@ -57,11 +63,23 @@
         "mainFile": "index.ts",
         "rootDir": "src/components/ui/card"
     },
+    "ui/footer": {
+        "scope": "xiaotiandada.cui",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/ui/footer"
+    },
     "ui/header": {
         "scope": "xiaotiandada.cui",
         "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "src/components/ui/header"
+    },
+    "ui/jazzicons": {
+        "scope": "xiaotiandada.cui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/ui/jazzicons"
     },
     "ui/layout": {
         "scope": "xiaotiandada.cui",

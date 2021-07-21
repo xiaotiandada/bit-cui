@@ -3,13 +3,16 @@ importers:
     dependencies:
       '@ant-design/icons': registry.npmjs.org/@ant-design/icons/4.6.2_react-dom@16.13.1+react@16.13.1
       '@react-spring/types': registry.npmjs.org/@react-spring/types/9.2.4
+      '@types/styled-components': registry.npmjs.org/@types/styled-components/5.1.11
       ahooks: registry.npmjs.org/ahooks/2.10.8_react@16.13.1
       antd: registry.npmjs.org/antd/4.16.8_react-dom@16.13.1+react@16.13.1
       core-js: registry.npmjs.org/core-js/3.15.2
       leva: registry.npmjs.org/leva/0.9.13_react-dom@16.13.1+react@16.13.1
       lodash: registry.npmjs.org/lodash/4.17.21
       react: registry.npmjs.org/react/16.13.1
+      react-blockies: registry.npmjs.org/react-blockies/1.4.1_react@16.13.1
       react-dom: registry.npmjs.org/react-dom/16.13.1_react@16.13.1
+      react-jazzicon: registry.npmjs.org/react-jazzicon/0.1.3_react@16.13.1
       react-spring: registry.npmjs.org/react-spring/9.2.3_react-dom@16.13.1+react@16.13.1
       react-visibility-sensor: registry.npmjs.org/react-visibility-sensor/5.1.1_react-dom@16.13.1+react@16.13.1
       styled-components: registry.npmjs.org/styled-components/5.3.0_react-dom@16.13.1+react@16.13.1
@@ -22,7 +25,6 @@ importers:
       '@types/node': registry.npmjs.org/@types/node/12.20.4
       '@types/react': registry.npmjs.org/@types/react/17.0.14
       '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.9
-      '@types/styled-components': registry.npmjs.org/@types/styled-components/5.1.11
       '@types/testing-library__jest-dom': registry.npmjs.org/@types/testing-library__jest-dom/5.9.5
       '@types/wavesurfer.js': registry.npmjs.org/@types/wavesurfer.js/5.1.0
     specifiers:
@@ -44,7 +46,9 @@ importers:
       leva: 0.9.13
       lodash: 4.17.21
       react: 16.13.1
+      react-blockies: 1.4.1
       react-dom: 16.13.1
+      react-jazzicon: 0.1.3
       react-spring: 9.2.3
       react-visibility-sensor: 5.1.1
       styled-components: 5.3.0
@@ -63,11 +67,19 @@ importers:
     specifiers: {}
   src/components/page/home:
     specifiers: {}
+  src/components/ui/blockies:
+    specifiers: {}
   src/components/ui/button:
     specifiers: {}
   src/components/ui/card:
     specifiers: {}
+  src/components/ui/footer:
+    specifiers: {}
   src/components/ui/header:
+    specifiers: {}
+  src/components/ui/jazzicon:
+    specifiers: {}
+  src/components/ui/jazzicons:
     specifiers: {}
   src/components/ui/layout:
     specifiers: {}
@@ -1017,7 +1029,7 @@ packages:
     dependencies:
       '@types/react': registry.npmjs.org/@types/react/17.0.14
       hoist-non-react-statics: registry.npmjs.org/hoist-non-react-statics/3.3.2
-    dev: true
+    dev: false
     name: '@types/hoist-non-react-statics'
     resolution:
       integrity: sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==
@@ -1099,7 +1111,6 @@ packages:
       tarball: https://registry.npmjs.org/@types/node/-/node-12.20.4.tgz
     version: 12.20.4
   registry.npmjs.org/@types/prop-types/15.7.4:
-    dev: true
     name: '@types/prop-types'
     resolution:
       integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
@@ -1121,7 +1132,6 @@ packages:
       '@types/prop-types': registry.npmjs.org/@types/prop-types/15.7.4
       '@types/scheduler': registry.npmjs.org/@types/scheduler/0.16.2
       csstype: registry.npmjs.org/csstype/3.0.8
-    dev: true
     name: '@types/react'
     resolution:
       integrity: sha512-0WwKHUbWuQWOce61UexYuWTGuGY/8JvtUe/dtQ6lR4sZ3UiylHotJeWpf3ArP9+DSGUoLY3wbU59VyMrJps5VQ==
@@ -1129,7 +1139,6 @@ packages:
       tarball: https://registry.npmjs.org/@types/react/-/react-17.0.14.tgz
     version: 17.0.14
   registry.npmjs.org/@types/scheduler/0.16.2:
-    dev: true
     name: '@types/scheduler'
     resolution:
       integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
@@ -1141,7 +1150,7 @@ packages:
       '@types/hoist-non-react-statics': registry.npmjs.org/@types/hoist-non-react-statics/3.3.1
       '@types/react': registry.npmjs.org/@types/react/17.0.14
       csstype: registry.npmjs.org/csstype/3.0.8
-    dev: true
+    dev: false
     name: '@types/styled-components'
     resolution:
       integrity: sha512-u8g3bSw9KUiZY+S++gh+LlURGraqBe3MC5I5dygrNjGDHWWQfsmZZRTJ9K9oHU2CqWtxChWmJkDI/gp+TZPQMw==
@@ -1451,6 +1460,16 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/classnames/-/classnames-2.3.1.tgz
     version: 2.3.1
+  registry.npmjs.org/clone/1.0.4:
+    dev: false
+    engines:
+      node: '>=0.8'
+    name: clone
+    resolution:
+      integrity: sha1-2jCcwmPfFZlMaIypAheco8fNfH4=
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/clone/-/clone-1.0.4.tgz
+    version: 1.0.4
   registry.npmjs.org/color-convert/1.9.3:
     dependencies:
       color-name: registry.npmjs.org/color-name/1.1.3
@@ -1480,13 +1499,34 @@ packages:
       tarball: https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz
     version: 1.1.3
   registry.npmjs.org/color-name/1.1.4:
-    dev: true
     name: color-name
     resolution:
       integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz
     version: 1.1.4
+  registry.npmjs.org/color-string/0.3.0:
+    dependencies:
+      color-name: registry.npmjs.org/color-name/1.1.4
+    dev: false
+    name: color-string
+    resolution:
+      integrity: sha1-J9RvtnAlxcL6JZk7+/V55HhBuZE=
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/color-string/-/color-string-0.3.0.tgz
+    version: 0.3.0
+  registry.npmjs.org/color/0.11.4:
+    dependencies:
+      clone: registry.npmjs.org/clone/1.0.4
+      color-convert: registry.npmjs.org/color-convert/1.9.3
+      color-string: registry.npmjs.org/color-string/0.3.0
+    dev: false
+    name: color
+    resolution:
+      integrity: sha1-bXtcdPtl6EHNSHkq0e1eB7kE12Q=
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/color/-/color-0.11.4.tgz
+    version: 0.11.4
   registry.npmjs.org/colord/2.1.0:
     dev: false
     name: colord
@@ -1731,6 +1771,7 @@ packages:
   registry.npmjs.org/hoist-non-react-statics/3.3.2:
     dependencies:
       react-is: registry.npmjs.org/react-is/16.13.1
+    dev: false
     name: hoist-non-react-statics
     resolution:
       integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
@@ -1944,6 +1985,14 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/merge-value/-/merge-value-1.0.0.tgz
     version: 1.0.0
+  registry.npmjs.org/mersenne-twister/1.1.0:
+    dev: false
+    name: mersenne-twister
+    resolution:
+      integrity: sha1-+RZhjuQ9cXnvz2Qb7EUx65Zwl4o=
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/mersenne-twister/-/mersenne-twister-1.1.0.tgz
+    version: 1.1.0
   registry.npmjs.org/mixin-deep/1.3.2:
     dependencies:
       for-in: registry.npmjs.org/for-in/1.0.2
@@ -2706,6 +2755,20 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/rc-virtual-list/-/rc-virtual-list-3.3.0.tgz
     version: 3.3.0
+  registry.npmjs.org/react-blockies/1.4.1_react@16.13.1:
+    dependencies:
+      prop-types: registry.npmjs.org/prop-types/15.7.2
+      react: registry.npmjs.org/react/16.13.1
+    dev: false
+    id: registry.npmjs.org/react-blockies/1.4.1
+    name: react-blockies
+    peerDependencies:
+      react: '>=15.0.0'
+    resolution:
+      integrity: sha512-4N015X5oPNnD3xQPsiqolOFzPZSSWyc5mJhJUZShUCHtiGUxVN+1qsWTcglkHMNySux9hUofaispqcw9QkWP5Q==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/react-blockies/-/react-blockies-1.4.1.tgz
+    version: 1.4.1
   registry.npmjs.org/react-colorful/5.2.3_react-dom@16.13.1+react@16.13.1:
     dependencies:
       react: registry.npmjs.org/react/16.13.1
@@ -2757,6 +2820,7 @@ packages:
       tarball: https://registry.npmjs.org/react-dropzone/-/react-dropzone-11.3.4.tgz
     version: 11.3.4
   registry.npmjs.org/react-is/16.13.1:
+    dev: false
     name: react-is
     resolution:
       integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
@@ -2771,6 +2835,22 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz
     version: 17.0.2
+  registry.npmjs.org/react-jazzicon/0.1.3_react@16.13.1:
+    dependencies:
+      color: registry.npmjs.org/color/0.11.4
+      mersenne-twister: registry.npmjs.org/mersenne-twister/1.1.0
+      prop-types: registry.npmjs.org/prop-types/15.7.2
+      react: registry.npmjs.org/react/16.13.1
+    dev: false
+    id: registry.npmjs.org/react-jazzicon/0.1.3
+    name: react-jazzicon
+    peerDependencies:
+      react: ^15.3.2
+    resolution:
+      integrity: sha512-9iJPMoPlNYg/GbAnHwdco1SUF4dM1HyOOJ9ouI27TKXXmRUeDq/ZaS4RFlHnOtcA6Yw/Uz1rUOu1bowThTCRCg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/react-jazzicon/-/react-jazzicon-0.1.3.tgz
+    version: 0.1.3
   registry.npmjs.org/react-spring/9.2.3_react-dom@16.13.1+react@16.13.1:
     dependencies:
       '@react-spring/core': registry.npmjs.org/@react-spring/core/9.2.3_react@16.13.1
