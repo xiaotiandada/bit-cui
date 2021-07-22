@@ -7,6 +7,12 @@
         "mainFile": "index.ts",
         "rootDir": "src/components/animated/card"
     },
+    "animated/tile-sprite": {
+        "scope": "xiaotiandada.cui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/animated/tile-sprite"
+    },
     "common/icon": {
         "scope": "xiaotiandada.cui",
         "version": "0.0.1",

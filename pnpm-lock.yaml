@@ -2,13 +2,16 @@ importers:
   .:
     dependencies:
       '@ant-design/icons': registry.npmjs.org/@ant-design/icons/4.6.2_react-dom@16.13.1+react@16.13.1
+      '@pixi/sprite-tiling': registry.npmjs.org/@pixi/sprite-tiling/6.0.4
       '@react-spring/types': registry.npmjs.org/@react-spring/types/9.2.4
       '@types/styled-components': registry.npmjs.org/@types/styled-components/5.1.11
       ahooks: registry.npmjs.org/ahooks/2.10.8_react@16.13.1
+      animejs: registry.npmjs.org/animejs/3.2.1
       antd: registry.npmjs.org/antd/4.16.8_react-dom@16.13.1+react@16.13.1
       core-js: registry.npmjs.org/core-js/3.15.2
       leva: registry.npmjs.org/leva/0.9.13_react-dom@16.13.1+react@16.13.1
       lodash: registry.npmjs.org/lodash/4.17.21
+      pixi.js: registry.npmjs.org/pixi.js/6.0.4
       react: registry.npmjs.org/react/16.13.1
       react-blockies: registry.npmjs.org/react-blockies/1.4.1_react@16.13.1
       react-dom: registry.npmjs.org/react-dom/16.13.1_react@16.13.1
@@ -31,6 +34,7 @@ importers:
     specifiers:
       '@ant-design/icons': 4.6.2
       '@babel/runtime': 7.12.18
+      '@pixi/sprite-tiling': 6.0.4
       '@react-spring/types': 9.2.4
       '@testing-library/react': 12.0.0
       '@types/jest': ^26.0.24
@@ -43,10 +47,12 @@ importers:
       '@types/testing-library__jest-dom': 5.9.5
       '@types/wavesurfer.js': 5.1.0
       ahooks: 2.10.8
+      animejs: 3.2.1
       antd: 4.16.8
       core-js: ^3.15.2
       leva: 0.9.13
       lodash: 4.17.21
+      pixi.js: 6.0.4
       react: 16.13.1
       react-blockies: 1.4.1
       react-dom: 16.13.1
@@ -56,6 +62,8 @@ importers:
       styled-components: 5.3.0
       wavesurfer.js: 5.1.0
   src/components/animated/card:
+    specifiers: {}
+  src/components/animated/tile-sprite:
     specifiers: {}
   src/components/common/icon:
     specifiers: {}
@@ -68,6 +76,8 @@ importers:
   src/components/nft/card:
     specifiers: {}
   src/components/page/home:
+    specifiers: {}
+  src/components/page/layout-two:
     specifiers: {}
   src/components/ui/blockies:
     specifiers: {}
@@ -453,6 +463,451 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@jest/types/-/types-27.0.6.tgz
     version: 27.0.6
+  registry.npmjs.org/@pixi/accessibility/6.0.4:
+    dependencies:
+      '@pixi/canvas-renderer': registry.npmjs.org/@pixi/canvas-renderer/6.0.4
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/accessibility'
+    resolution:
+      integrity: sha512-S0Co6M+BIx+Yk3INCwGp5Xif0jIv/uj5JPMbctpMV7fSsE3x0nYvcOOAfBjkGhYcXG7fNOGrYLgs5XQOBIWGtA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/accessibility/-/accessibility-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/app/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+    dev: false
+    name: '@pixi/app'
+    resolution:
+      integrity: sha512-+BiuaQtnOBR5/Q8+nXnHE2tuZyuBnqy/cwbIR1ImPnKAs7UaCcRLf1R0RvnRFu4KMP4ozTd810p0k84TzIguTA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/app/-/app-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/canvas-renderer/6.0.4:
+    dependencies:
+      '@pixi/constants': registry.npmjs.org/@pixi/constants/6.0.4
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/settings': registry.npmjs.org/@pixi/settings/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/canvas-renderer'
+    resolution:
+      integrity: sha512-z2r1nzYsAp9+gipvlFCj0rd0yfjVq1hTQkyWuMbo5TrePdEo3NLRrCUGo1dHJNbeSERpgGNN05OAiGQbAI+AUg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/canvas-renderer/-/canvas-renderer-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/compressed-textures/6.0.4:
+    dependencies:
+      '@pixi/constants': registry.npmjs.org/@pixi/constants/6.0.4
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/loaders': registry.npmjs.org/@pixi/loaders/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/compressed-textures'
+    resolution:
+      integrity: sha512-AqQPuuXcNrR28YT69SZhRxRRwzqQcQ/QrlexAR9Fohpe+jfDnvlNaIvQQoXU7HxD7huRiQ/dm3nwsLiKPqVoTg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/compressed-textures/-/compressed-textures-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/constants/6.0.4:
+    dev: false
+    name: '@pixi/constants'
+    resolution:
+      integrity: sha512-khwRMfuHVdFk93L+bf0mmCwtSloYlfBfjdseIAbJL+VSpeMG1S2DzCYlMCPdp4mvDLU9LvkH2U2leZGEIx5j7g==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/constants/-/constants-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/core/6.0.4:
+    dependencies:
+      '@pixi/constants': registry.npmjs.org/@pixi/constants/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/runner': registry.npmjs.org/@pixi/runner/6.0.4
+      '@pixi/settings': registry.npmjs.org/@pixi/settings/6.0.4
+      '@pixi/ticker': registry.npmjs.org/@pixi/ticker/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/core'
+    resolution:
+      integrity: sha512-r1ceyAz0z3usUs0uj4u2986vVT2tQixGNin2o9FNhPFDXbN5EaoKHLtrjGBt1iylK/EUH/nfL5zq0SGa/loW0A==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/core/-/core-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/display/6.0.4:
+    dependencies:
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/settings': registry.npmjs.org/@pixi/settings/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/display'
+    resolution:
+      integrity: sha512-v6hjx5Gm5aIlLQ7xrsZ2lstI1cv/MtbWXJOhU8LXckkrHHUvAuJgml3+0pcHw8YLuOlepZngUuiqy/XjceVk8A==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/display/-/display-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/extract/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/extract'
+    resolution:
+      integrity: sha512-xf/pnc5od7YJ8zCVIrv1km7i+P+rxYcSrrBI/hqX+qoVsI5EySKInf2GhCKHz4UjOHdSL5aPDnNYvzssNdIpdQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/extract/-/extract-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/filter-alpha/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+    dev: false
+    name: '@pixi/filter-alpha'
+    resolution:
+      integrity: sha512-MZEfvNPfH2NfrwgqKhwwzurnbLujphx4KNQmS63MEZTvXuQJy16DEOs459APYF6PmeGAGuDPKd5Onk/VbLRUwQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/filter-alpha/-/filter-alpha-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/filter-blur/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/settings': registry.npmjs.org/@pixi/settings/6.0.4
+    dev: false
+    name: '@pixi/filter-blur'
+    resolution:
+      integrity: sha512-Hb14geh8ZKc8jZ4lfKyeWThLMqIvha6DdRUTfiSdKe3L7Q6qwqsb7LPtIrZHAPEQCyFLWbcOvRMy6ZFy0YkpLA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/filter-blur/-/filter-blur-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/filter-color-matrix/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+    dev: false
+    name: '@pixi/filter-color-matrix'
+    resolution:
+      integrity: sha512-31Rf9VBo2gqoxiAbD/Z1i+mu1C7uehecoelYQqCIzLjsWisICDTZZjUkMB5GrGzjeSpSqLfB34tlutBSh/r1wg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/filter-color-matrix/-/filter-color-matrix-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/filter-displacement/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+    dev: false
+    name: '@pixi/filter-displacement'
+    resolution:
+      integrity: sha512-Oyk/WbzxlN46d/uB5NtPLfEW2G6ob5XRP+mPVd8yhK38m9Y9rKlcH4jJoWB2niQ+ewkdRfZhuIB+JRdhc9eevg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/filter-displacement/-/filter-displacement-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/filter-fxaa/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+    dev: false
+    name: '@pixi/filter-fxaa'
+    resolution:
+      integrity: sha512-cO5XuEIq//Wsk4MjrCYuXff+1/Gfc4bkFkMTO5JKvUaDlZzHNykZd5CeAouD2fz7/6/1z0gdWKbBY9IoameBew==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/filter-fxaa/-/filter-fxaa-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/filter-noise/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+    dev: false
+    name: '@pixi/filter-noise'
+    resolution:
+      integrity: sha512-Fpex0tpKCwZIsN03zAmN7hAOCocFF/w4XVVIkuNgYR5A90OkK+omR6p/fDtlJtlAjWarsWq0y+c5wvvUMfqsmg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/filter-noise/-/filter-noise-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/graphics/6.0.4:
+    dependencies:
+      '@pixi/constants': registry.npmjs.org/@pixi/constants/6.0.4
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/sprite': registry.npmjs.org/@pixi/sprite/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/graphics'
+    resolution:
+      integrity: sha512-CybR+DBkGB5llypPeib2A0J13mnPQwlQDqLRhlhXKkYxXQKXlPk5MWA7ZEg+4wKeqUUlrC+k70e5ZFYLC3AgEQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/graphics/-/graphics-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/interaction/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/ticker': registry.npmjs.org/@pixi/ticker/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/interaction'
+    resolution:
+      integrity: sha512-4+FOKDpiF/+F9r3+y81xTBElcLqI3OpeeI9bkIw9pPHA41riXRQv+m0HWz76bGQK7zDAimAV9K2xff7Wa5nSeg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/interaction/-/interaction-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/loaders/6.0.4:
+    dependencies:
+      '@pixi/constants': registry.npmjs.org/@pixi/constants/6.0.4
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+      resource-loader: registry.npmjs.org/resource-loader/3.0.1
+    dev: false
+    name: '@pixi/loaders'
+    resolution:
+      integrity: sha512-cw8QSkn8l8P06fINfwCZW+vUdhtOJ5G+T2qQm3HIDgI/J1tAsiRj3ufHop8xkHwYXrUeTf1LTqw+QdlZEVpJfg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/loaders/-/loaders-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/math/6.0.4:
+    dev: false
+    name: '@pixi/math'
+    resolution:
+      integrity: sha512-UwZ72CeZ2KsS4IlcEXgNiuD88omPk42Dct74+1G+R2+yPI+XRZq+hGQRTle/BbFYjxh9ccdQVyX9ToGv1XTd6Q==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/math/-/math-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/mesh-extras/6.0.4:
+    dependencies:
+      '@pixi/constants': registry.npmjs.org/@pixi/constants/6.0.4
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/mesh': registry.npmjs.org/@pixi/mesh/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/mesh-extras'
+    resolution:
+      integrity: sha512-2fGM8j2NBwPV71SSmMfke1N1oEQ34+J19rdaAb+p1fXex0FafqtXVO49Q8rPMvungKDplMKElzQoaC1G6JGKqA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/mesh-extras/-/mesh-extras-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/mesh/6.0.4:
+    dependencies:
+      '@pixi/constants': registry.npmjs.org/@pixi/constants/6.0.4
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/settings': registry.npmjs.org/@pixi/settings/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/mesh'
+    resolution:
+      integrity: sha512-uE1Qs4mXy0QVV3yjxlNeqthkXGS6Hkt5uR1fwrvdqxlQRkX69nRq+GZfInuRYDWqwAsl8eZWs7f+pLRDT+HFbA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/mesh/-/mesh-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/mixin-cache-as-bitmap/6.0.4:
+    dependencies:
+      '@pixi/canvas-renderer': registry.npmjs.org/@pixi/canvas-renderer/6.0.4
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/settings': registry.npmjs.org/@pixi/settings/6.0.4
+      '@pixi/sprite': registry.npmjs.org/@pixi/sprite/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/mixin-cache-as-bitmap'
+    resolution:
+      integrity: sha512-b1G5AWsxnw3CxNyaxCWJ1cWPnRECknJQ9B4D8Dy7u/gI2gABVjqz17nNFYnVpcggLlgMTkjX8+/HWnD/vZQkTg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/mixin-cache-as-bitmap/-/mixin-cache-as-bitmap-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/mixin-get-child-by-name/6.0.4:
+    dependencies:
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+    dev: false
+    name: '@pixi/mixin-get-child-by-name'
+    resolution:
+      integrity: sha512-scUMBHlOmW0hpjltn4UCihJZvz3ysDYIW35ma9p9Lso2D9qKjsZpojQ6mc75FVWz53T0BjUmLW8LHA86Jic6MQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/mixin-get-child-by-name/-/mixin-get-child-by-name-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/mixin-get-global-position/6.0.4:
+    dependencies:
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+    dev: false
+    name: '@pixi/mixin-get-global-position'
+    resolution:
+      integrity: sha512-HzaFTMZEZTr6+WYuT9crTjjBYl7/Y/VDB7pWmjnntEdQsa1m0+by7Mnl67L6OSUPsAgW3MMlWirb5tL2zGFC7g==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/mixin-get-global-position/-/mixin-get-global-position-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/particles/6.0.4:
+    dependencies:
+      '@pixi/constants': registry.npmjs.org/@pixi/constants/6.0.4
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/particles'
+    resolution:
+      integrity: sha512-/57nd+icuPFMNc+SxeUqGoO8ZXEKu9u8h+UI856XF1Rc1jlXzGanGAbp43Llq2LphYqBI8YVftP0QXhewCVjjA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/particles/-/particles-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/polyfill/6.0.4:
+    dependencies:
+      object-assign: registry.npmjs.org/object-assign/4.1.1
+      promise-polyfill: registry.npmjs.org/promise-polyfill/8.2.0
+    dev: false
+    name: '@pixi/polyfill'
+    resolution:
+      integrity: sha512-HM27pSl8iduFqUC4Waa9mt/gRKHi8Pr679it84+U4CwXmJ2lw9DL5dZuyU+QzCp2nPEVGMqx8Ig8c7WLUMvnWA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/polyfill/-/polyfill-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/prepare/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+      '@pixi/graphics': registry.npmjs.org/@pixi/graphics/6.0.4
+      '@pixi/settings': registry.npmjs.org/@pixi/settings/6.0.4
+      '@pixi/text': registry.npmjs.org/@pixi/text/6.0.4
+      '@pixi/ticker': registry.npmjs.org/@pixi/ticker/6.0.4
+    dev: false
+    name: '@pixi/prepare'
+    resolution:
+      integrity: sha512-BrOeKC6eZ+sdiqpefUMGXIt/VDiYDqPDP7XUCRmaI8rGTFT6ZAg/XJQENb9TsVen/4dUp+9/1u7HCFO1TEhaWQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/prepare/-/prepare-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/runner/6.0.4:
+    dev: false
+    name: '@pixi/runner'
+    resolution:
+      integrity: sha512-ta6r36r2vC+fPB27URpSacPGQDtbJbdUoeGCJWAEwX+QI4vx4C9NYAcB0bIg8TLXiigCfA6by/RMnJ0dBiemFA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/runner/-/runner-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/settings/6.0.4:
+    dependencies:
+      ismobilejs: registry.npmjs.org/ismobilejs/1.1.1
+    dev: false
+    name: '@pixi/settings'
+    resolution:
+      integrity: sha512-djiIsmULDwcHWNmEiZKm4zyVopu1NL+fClnbBmtDkGZw7nm37y6dOcdpYawJcxvE4/KLm6pspBiRTnrzdlqW7Q==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/settings/-/settings-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/sprite-animated/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/sprite': registry.npmjs.org/@pixi/sprite/6.0.4
+      '@pixi/ticker': registry.npmjs.org/@pixi/ticker/6.0.4
+    dev: false
+    name: '@pixi/sprite-animated'
+    resolution:
+      integrity: sha512-uzNeJiZqcnuRc7HH/HdWxrkU7S3/D57rEGK+AuoaWEE2e2HlBWILGkf78mtqmeIrEChxe2qkOVkf4y3BZkzJVw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/sprite-animated/-/sprite-animated-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/sprite-tiling/6.0.4:
+    dependencies:
+      '@pixi/constants': registry.npmjs.org/@pixi/constants/6.0.4
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/sprite': registry.npmjs.org/@pixi/sprite/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/sprite-tiling'
+    resolution:
+      integrity: sha512-4TBsKMeGhwmfsVELorSs+zWWBih37Kd0lPQu0uhcHVV1RKtZxZpkgNoyzKS4d+WInNek5F0E592bYsXkbE6Gag==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/sprite-tiling/-/sprite-tiling-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/sprite/6.0.4:
+    dependencies:
+      '@pixi/constants': registry.npmjs.org/@pixi/constants/6.0.4
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/settings': registry.npmjs.org/@pixi/settings/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/sprite'
+    resolution:
+      integrity: sha512-6yMoHmfFhSRERLM1PUXceq9e6e1UH0YJkLoPVLv6gxMunfk6jPXeO8p9dDS2FQ8ZMSkO/16BKq27HIMKvF6Cvg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/sprite/-/sprite-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/spritesheet/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/loaders': registry.npmjs.org/@pixi/loaders/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/spritesheet'
+    resolution:
+      integrity: sha512-WgOBoi9KvLkHtfSyKSEzjIq6BkLwC+Ckllh+vWgfjfFDhtm7NdOfxW5WVIoCLfyfv5/NSwEMEEffZrcw4zYA/A==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/spritesheet/-/spritesheet-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/text-bitmap/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+      '@pixi/loaders': registry.npmjs.org/@pixi/loaders/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/mesh': registry.npmjs.org/@pixi/mesh/6.0.4
+      '@pixi/settings': registry.npmjs.org/@pixi/settings/6.0.4
+      '@pixi/text': registry.npmjs.org/@pixi/text/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/text-bitmap'
+    resolution:
+      integrity: sha512-Nh2PXixqF0LFJ0xwmTib2HVWdhgsHn+dSYMVIec8LndDFQMTBw+X2XP1iHjVm0xhqOVdZI+Qfb2Trc0j2lINrw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/text-bitmap/-/text-bitmap-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/text/6.0.4:
+    dependencies:
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/settings': registry.npmjs.org/@pixi/settings/6.0.4
+      '@pixi/sprite': registry.npmjs.org/@pixi/sprite/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: '@pixi/text'
+    resolution:
+      integrity: sha512-r9UJg8ivWvvS7nNyBaZBKX5zg5UCU37dIYbKXcHyiXnOvXO22tiQBfkPBrZCueeLXRouC9sHmDFya8rb5TE9HA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/text/-/text-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/ticker/6.0.4:
+    dependencies:
+      '@pixi/settings': registry.npmjs.org/@pixi/settings/6.0.4
+    dev: false
+    name: '@pixi/ticker'
+    resolution:
+      integrity: sha512-PkFfPP5vHlgnApLks0Ia0okmFu6KPqBdIyquDqHJAcBdgljedm32KS6K2EH37xelBOzYHScjZ2SQGiiebVfClw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/ticker/-/ticker-6.0.4.tgz
+    version: 6.0.4
+  registry.npmjs.org/@pixi/utils/6.0.4:
+    dependencies:
+      '@pixi/constants': registry.npmjs.org/@pixi/constants/6.0.4
+      '@pixi/settings': registry.npmjs.org/@pixi/settings/6.0.4
+      '@types/earcut': registry.npmjs.org/@types/earcut/2.1.1
+      earcut: registry.npmjs.org/earcut/2.2.3
+      eventemitter3: registry.npmjs.org/eventemitter3/3.1.2
+      url: registry.npmjs.org/url/0.11.0
+    dev: false
+    name: '@pixi/utils'
+    resolution:
+      integrity: sha512-35JTWsAJ8Va0vvtUSQvyOr3kGedGKVuJnHDO89B8C8tSFtMpJYrR44vp1b1p1vOjNak+ulGehZc8LzlCqymViQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@pixi/utils/-/utils-6.0.4.tgz
+    version: 6.0.4
   registry.npmjs.org/@radix-ui/popper/0.0.10:
     dependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.14.6
@@ -1027,6 +1482,14 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@types/debounce/-/debounce-1.2.0.tgz
     version: 1.2.0
+  registry.npmjs.org/@types/earcut/2.1.1:
+    dev: false
+    name: '@types/earcut'
+    resolution:
+      integrity: sha512-w8oigUCDjElRHRRrMvn/spybSMyX8MTkKA5Dv+tS1IE/TgmNZPqUYtvYBXGY8cieSE66gm+szeK+bnbxC2xHTQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/earcut/-/earcut-2.1.1.tgz
+    version: 2.1.1
   registry.npmjs.org/@types/hoist-non-react-statics/3.3.1:
     dependencies:
       '@types/react': registry.npmjs.org/@types/react/17.0.14
@@ -1256,6 +1719,14 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/ahooks/-/ahooks-2.10.8.tgz
     version: 2.10.8
+  registry.npmjs.org/animejs/3.2.1:
+    dev: false
+    name: animejs
+    resolution:
+      integrity: sha512-sWno3ugFryK5nhiDm/2BKeFCpZv7vzerWUcUPyAZLDhMek3+S/p418ldZJbJXo5ZUOpfm2kP2XRO4NJcULMy9A==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/animejs/-/animejs-3.2.1.tgz
+    version: 3.2.1
   registry.npmjs.org/ansi-regex/5.0.0:
     dev: true
     engines:
@@ -1685,6 +2156,14 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/dom-align/-/dom-align-1.12.2.tgz
     version: 1.12.2
+  registry.npmjs.org/earcut/2.2.3:
+    dev: false
+    name: earcut
+    resolution:
+      integrity: sha512-iRDI1QeCQIhMCZk48DRDMVgQSSBDmbzzNhnxIo+pwx3swkfjMh6vh0nWLq1NdvGHLKH6wIrAM3vQWeTj6qeoug==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/earcut/-/earcut-2.2.3.tgz
+    version: 2.2.3
   registry.npmjs.org/escape-string-regexp/1.0.5:
     engines:
       node: '>=0.8.0'
@@ -1694,6 +2173,14 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz
     version: 1.0.5
+  registry.npmjs.org/eventemitter3/3.1.2:
+    dev: false
+    name: eventemitter3
+    resolution:
+      integrity: sha512-tvtQIeLVHjDkJYnzf2dgVMxfuSGJeM/7UCG17TT4EumTfNtF+0nebF/4zWOIkCreAbtNqhGEboB6BWrwqNaw4Q==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/eventemitter3/-/eventemitter3-3.1.2.tgz
+    version: 3.1.2
   registry.npmjs.org/extend-shallow/2.0.1:
     dependencies:
       is-extendable: registry.npmjs.org/is-extendable/0.1.1
@@ -1832,6 +2319,14 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz
     version: 2.0.4
+  registry.npmjs.org/ismobilejs/1.1.1:
+    dev: false
+    name: ismobilejs
+    resolution:
+      integrity: sha512-VaFW53yt8QO61k2WJui0dHf4SlL8lxBofUuUmwBo0ljPk0Drz2TiuDW4jo3wDcv41qy/SxrJ+VAzJ/qYqsmzRw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/ismobilejs/-/ismobilejs-1.1.1.tgz
+    version: 1.1.1
   registry.npmjs.org/isobject/3.0.1:
     dev: false
     engines:
@@ -2005,6 +2500,14 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/mersenne-twister/-/mersenne-twister-1.1.0.tgz
     version: 1.1.0
+  registry.npmjs.org/mini-signals/1.2.0:
+    dev: false
+    name: mini-signals
+    resolution:
+      integrity: sha1-RbCAE8X65RokqhqTXNMXye1yHXQ=
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/mini-signals/-/mini-signals-1.2.0.tgz
+    version: 1.2.0
   registry.npmjs.org/mixin-deep/1.3.2:
     dependencies:
       for-in: registry.npmjs.org/for-in/1.0.2
@@ -2044,6 +2547,60 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz
     version: 4.1.1
+  registry.npmjs.org/parse-uri/1.0.3:
+    dev: false
+    engines:
+      node: '>= 0.10'
+    name: parse-uri
+    resolution:
+      integrity: sha512-upMnGxNcm+45So85HoguwZTVZI9u11i36DdxJfGF2HYWS2eh3TIx7+/tTi7qrEq15qzGkVhsKjesau+kCk48pA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/parse-uri/-/parse-uri-1.0.3.tgz
+    version: 1.0.3
+  registry.npmjs.org/pixi.js/6.0.4:
+    dependencies:
+      '@pixi/accessibility': registry.npmjs.org/@pixi/accessibility/6.0.4
+      '@pixi/app': registry.npmjs.org/@pixi/app/6.0.4
+      '@pixi/compressed-textures': registry.npmjs.org/@pixi/compressed-textures/6.0.4
+      '@pixi/constants': registry.npmjs.org/@pixi/constants/6.0.4
+      '@pixi/core': registry.npmjs.org/@pixi/core/6.0.4
+      '@pixi/display': registry.npmjs.org/@pixi/display/6.0.4
+      '@pixi/extract': registry.npmjs.org/@pixi/extract/6.0.4
+      '@pixi/filter-alpha': registry.npmjs.org/@pixi/filter-alpha/6.0.4
+      '@pixi/filter-blur': registry.npmjs.org/@pixi/filter-blur/6.0.4
+      '@pixi/filter-color-matrix': registry.npmjs.org/@pixi/filter-color-matrix/6.0.4
+      '@pixi/filter-displacement': registry.npmjs.org/@pixi/filter-displacement/6.0.4
+      '@pixi/filter-fxaa': registry.npmjs.org/@pixi/filter-fxaa/6.0.4
+      '@pixi/filter-noise': registry.npmjs.org/@pixi/filter-noise/6.0.4
+      '@pixi/graphics': registry.npmjs.org/@pixi/graphics/6.0.4
+      '@pixi/interaction': registry.npmjs.org/@pixi/interaction/6.0.4
+      '@pixi/loaders': registry.npmjs.org/@pixi/loaders/6.0.4
+      '@pixi/math': registry.npmjs.org/@pixi/math/6.0.4
+      '@pixi/mesh': registry.npmjs.org/@pixi/mesh/6.0.4
+      '@pixi/mesh-extras': registry.npmjs.org/@pixi/mesh-extras/6.0.4
+      '@pixi/mixin-cache-as-bitmap': registry.npmjs.org/@pixi/mixin-cache-as-bitmap/6.0.4
+      '@pixi/mixin-get-child-by-name': registry.npmjs.org/@pixi/mixin-get-child-by-name/6.0.4
+      '@pixi/mixin-get-global-position': registry.npmjs.org/@pixi/mixin-get-global-position/6.0.4
+      '@pixi/particles': registry.npmjs.org/@pixi/particles/6.0.4
+      '@pixi/polyfill': registry.npmjs.org/@pixi/polyfill/6.0.4
+      '@pixi/prepare': registry.npmjs.org/@pixi/prepare/6.0.4
+      '@pixi/runner': registry.npmjs.org/@pixi/runner/6.0.4
+      '@pixi/settings': registry.npmjs.org/@pixi/settings/6.0.4
+      '@pixi/sprite': registry.npmjs.org/@pixi/sprite/6.0.4
+      '@pixi/sprite-animated': registry.npmjs.org/@pixi/sprite-animated/6.0.4
+      '@pixi/sprite-tiling': registry.npmjs.org/@pixi/sprite-tiling/6.0.4
+      '@pixi/spritesheet': registry.npmjs.org/@pixi/spritesheet/6.0.4
+      '@pixi/text': registry.npmjs.org/@pixi/text/6.0.4
+      '@pixi/text-bitmap': registry.npmjs.org/@pixi/text-bitmap/6.0.4
+      '@pixi/ticker': registry.npmjs.org/@pixi/ticker/6.0.4
+      '@pixi/utils': registry.npmjs.org/@pixi/utils/6.0.4
+    dev: false
+    name: pixi.js
+    resolution:
+      integrity: sha512-zAlwr5x9xytaflmZiZWl/ZhlSf+lZzeJG+Hexa7Buf7cvEhHPfSITy4NNk0+qnMXKooQidikBmypShDsj2jAdg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/pixi.js/-/pixi.js-6.0.4.tgz
+    version: 6.0.4
   registry.npmjs.org/postcss-value-parser/4.1.0:
     dev: false
     name: postcss-value-parser
@@ -2082,6 +2639,14 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/pretty-format/-/pretty-format-27.0.6.tgz
     version: 27.0.6
+  registry.npmjs.org/promise-polyfill/8.2.0:
+    dev: false
+    name: promise-polyfill
+    resolution:
+      integrity: sha512-k/TC0mIcPVF6yHhUvwAp7cvL6I2fFV7TzF1DuGPI8mBh4QQazf36xCKEHKTZKRysEoTQoQdKyP25J8MPJp7j5g==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/promise-polyfill/-/promise-polyfill-8.2.0.tgz
+    version: 8.2.0
   registry.npmjs.org/prop-types/15.7.2:
     dependencies:
       loose-envify: registry.npmjs.org/loose-envify/1.4.0
@@ -2094,6 +2659,25 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz
     version: 15.7.2
+  registry.npmjs.org/punycode/1.3.2:
+    dev: false
+    name: punycode
+    resolution:
+      integrity: sha1-llOgNvt8HuQjQvIyXM7v6jkmxI0=
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz
+    version: 1.3.2
+  registry.npmjs.org/querystring/0.2.0:
+    deprecated: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+    dev: false
+    engines:
+      node: '>=0.4.x'
+    name: querystring
+    resolution:
+      integrity: sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz
+    version: 0.2.0
   registry.npmjs.org/rc-align/4.0.9_react-dom@16.13.1+react@16.13.1:
     dependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.14.6
@@ -2940,6 +3524,17 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz
     version: 1.5.1
+  registry.npmjs.org/resource-loader/3.0.1:
+    dependencies:
+      mini-signals: registry.npmjs.org/mini-signals/1.2.0
+      parse-uri: registry.npmjs.org/parse-uri/1.0.3
+    dev: false
+    name: resource-loader
+    resolution:
+      integrity: sha512-fBuCRbEHdLCI1eglzQhUv9Rrdcmqkydr1r6uHE2cYHvRBrcLXeSmbE/qI/urFt8rPr/IGxir3BUwM5kUK8XoyA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/resource-loader/-/resource-loader-3.0.1.tgz
+    version: 3.0.1
   registry.npmjs.org/scheduler/0.19.1:
     dependencies:
       loose-envify: registry.npmjs.org/loose-envify/1.4.0
@@ -3101,6 +3696,17 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/tslib/-/tslib-2.3.0.tgz
     version: 2.3.0
+  registry.npmjs.org/url/0.11.0:
+    dependencies:
+      punycode: registry.npmjs.org/punycode/1.3.2
+      querystring: registry.npmjs.org/querystring/0.2.0
+    dev: false
+    name: url
+    resolution:
+      integrity: sha1-ODjpfPxgUh63PFJajlW/3Z4uKPE=
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/url/-/url-0.11.0.tgz
+    version: 0.11.0
   registry.npmjs.org/v8n/1.3.3:
     dev: false
     name: v8n

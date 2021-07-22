@@ -83,5 +83,10 @@
     "scope": null,
     "name": "page/layout-two",
     "version": "0.0.1"
+  },
+  {
+    "scope": null,
+    "name": "animated/tile-sprite",
+    "version": "0.0.1"
   }
 ]

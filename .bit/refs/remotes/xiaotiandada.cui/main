@@ -88,6 +88,20 @@
       "scope": "xiaotiandada.cui",
       "name": "ui/jazzicons"
     },
-    "head": "097aceaf82d016abc0c1191a530b76d7fd32a666"
+    "head": "5534c7f5861702a45753ed93bfcd99060b2f86e9"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "page/layout-two"
+    },
+    "head": "fc0f0bb433d835d46ac510d2c404629afdb2aafc"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "ui/blockies"
+    },
+    "head": "0ce7303304a1a80d48b6ee703b23ec57ea96ecee"
   }
 ]

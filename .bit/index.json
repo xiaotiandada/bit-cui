@@ -679,6 +679,22 @@
       },
       "isSymlink": false,
       "hash": "6f2002a241976d7649edba8cdfc7b26b9c5885f7"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "animated/tile-sprite"
+      },
+      "isSymlink": true,
+      "hash": "c6d78538422e257fd941d109cd4d1e01c8231edf"
+    },
+    {
+      "id": {
+        "scope": "xiaotiandada.cui",
+        "name": "animated/tile-sprite"
+      },
+      "isSymlink": false,
+      "hash": "4d6c5c87899f3cc1190bb420dcae52fa4a36accd"
     }
   ],
   "lanes": []
