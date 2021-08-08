@@ -103,5 +103,19 @@
       "name": "ui/blockies"
     },
     "head": "0ce7303304a1a80d48b6ee703b23ec57ea96ecee"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "animated/card-more"
+    },
+    "head": "8fcf5dbe97d2e99eb88e644d7d2f22e27586461f"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "animated/tile-sprite"
+    },
+    "head": "0f767d53fe6955317932eb1e5ab9d21c7a177d72"
   }
 ]

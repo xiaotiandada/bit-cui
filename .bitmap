@@ -63,6 +63,12 @@
         "mainFile": "index.ts",
         "rootDir": "src/components/page/layout-two"
     },
+    "svg/hexagon-page": {
+        "scope": "xiaotiandada.cui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/svg/hexagon-page"
+    },
     "ui/blockies": {
         "scope": "xiaotiandada.cui",
         "version": "0.0.1",

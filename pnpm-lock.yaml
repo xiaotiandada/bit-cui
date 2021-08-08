@@ -8,13 +8,16 @@ importers:
       ahooks: registry.npmjs.org/ahooks/2.10.8_react@16.13.1
       animejs: registry.npmjs.org/animejs/3.2.1
       antd: registry.npmjs.org/antd/4.16.8_react-dom@16.13.1+react@16.13.1
-      core-js: registry.npmjs.org/core-js/3.15.2
+      core-js: registry.npmjs.org/core-js/3.16.0
+      d3: registry.npmjs.org/d3/7.0.0
       leva: registry.npmjs.org/leva/0.9.13_react-dom@16.13.1+react@16.13.1
       lodash: registry.npmjs.org/lodash/4.17.21
       pixi.js: registry.npmjs.org/pixi.js/6.0.4
+      prop-types: registry.npmjs.org/prop-types/15.7.2
       react: registry.npmjs.org/react/16.13.1
       react-blockies: registry.npmjs.org/react-blockies/1.4.1_react@16.13.1
       react-dom: registry.npmjs.org/react-dom/16.13.1_react@16.13.1
+      react-hexgrid: registry.npmjs.org/react-hexgrid/1.0.3_prop-types@15.7.2+react@16.13.1
       react-jazzicon: registry.npmjs.org/react-jazzicon/0.1.3_react@16.13.1
       react-spring: registry.npmjs.org/react-spring/9.2.3_react-dom@16.13.1+react@16.13.1
       react-visibility-sensor: registry.npmjs.org/react-visibility-sensor/5.1.1_react-dom@16.13.1+react@16.13.1
@@ -23,10 +26,11 @@ importers:
     devDependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
       '@testing-library/react': registry.npmjs.org/@testing-library/react/12.0.0_react-dom@16.13.1+react@16.13.1
+      '@types/d3': registry.npmjs.org/@types/d3/7.0.0
       '@types/jest': registry.npmjs.org/@types/jest/26.0.24
       '@types/lodash': registry.npmjs.org/@types/lodash/4.14.171
       '@types/node': registry.npmjs.org/@types/node/12.20.4
-      '@types/react': registry.npmjs.org/@types/react/17.0.14
+      '@types/react': registry.npmjs.org/@types/react/17.0.16
       '@types/react-blockies': registry.npmjs.org/@types/react-blockies/1.4.1
       '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.9
       '@types/testing-library__jest-dom': registry.npmjs.org/@types/testing-library__jest-dom/5.9.5
@@ -37,10 +41,11 @@ importers:
       '@pixi/sprite-tiling': 6.0.4
       '@react-spring/types': 9.2.4
       '@testing-library/react': 12.0.0
+      '@types/d3': 7.0.0
       '@types/jest': ^26.0.24
       '@types/lodash': 4.14.171
       '@types/node': 12.20.4
-      '@types/react': ^17.0.14
+      '@types/react': ^17.0.16
       '@types/react-blockies': 1.4.1
       '@types/react-dom': ^17.0.9
       '@types/styled-components': 5.1.11
@@ -49,19 +54,24 @@ importers:
       ahooks: 2.10.8
       animejs: 3.2.1
       antd: 4.16.8
-      core-js: ^3.15.2
+      core-js: ^3.16.0
+      d3: 7.0.0
       leva: 0.9.13
       lodash: 4.17.21
       pixi.js: 6.0.4
+      prop-types: 15.7.2
       react: 16.13.1
       react-blockies: 1.4.1
       react-dom: 16.13.1
+      react-hexgrid: 1.0.3
       react-jazzicon: 0.1.3
       react-spring: 9.2.3
       react-visibility-sensor: 5.1.1
       styled-components: 5.3.0
       wavesurfer.js: 5.1.0
   src/components/animated/card:
+    specifiers: {}
+  src/components/animated/card-more:
     specifiers: {}
   src/components/animated/tile-sprite:
     specifiers: {}
@@ -78,6 +88,8 @@ importers:
   src/components/page/home:
     specifiers: {}
   src/components/page/layout-two:
+    specifiers: {}
+  src/components/svg/hexagon-page:
     specifiers: {}
   src/components/ui/blockies:
     specifiers: {}
@@ -1474,6 +1486,309 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@types/aria-query/-/aria-query-4.2.1.tgz
     version: 4.2.1
+  registry.npmjs.org/@types/d3-array/3.0.1:
+    dev: true
+    name: '@types/d3-array'
+    resolution:
+      integrity: sha512-D/G7oG0czeszALrkdUiV68CDiHDxXf+M2mLVqAyKktGd12VKQQljj1sHJGBKjcK4jRH1biBd6ZPQPHpJ0mNa0w==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-array/-/d3-array-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3-axis/3.0.1:
+    dependencies:
+      '@types/d3-selection': registry.npmjs.org/@types/d3-selection/3.0.1
+    dev: true
+    name: '@types/d3-axis'
+    resolution:
+      integrity: sha512-zji/iIbdd49g9WN0aIsGcwcTBUkgLsCSwB+uH+LPVDAiKWENMtI3cJEWt+7/YYwelMoZmbBfzA3qCdrZ2XFNnw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-axis/-/d3-axis-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3-brush/3.0.1:
+    dependencies:
+      '@types/d3-selection': registry.npmjs.org/@types/d3-selection/3.0.1
+    dev: true
+    name: '@types/d3-brush'
+    resolution:
+      integrity: sha512-B532DozsiTuQMHu2YChdZU0qsFJSio3Q6jmBYGYNp3gMDzBmuFFgPt9qKA4VYuLZMp4qc6eX7IUFUEsvHiXZAw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-brush/-/d3-brush-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3-chord/3.0.1:
+    dev: true
+    name: '@types/d3-chord'
+    resolution:
+      integrity: sha512-eQfcxIHrg7V++W8Qxn6QkqBNBokyhdWSAS73AbkbMzvLQmVVBviknoz2SRS/ZJdIOmhcmmdCRE/NFOm28Z1AMw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-chord/-/d3-chord-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3-color/3.0.2:
+    dev: true
+    name: '@types/d3-color'
+    resolution:
+      integrity: sha512-WVx6zBiz4sWlboCy7TCgjeyHpNjMsoF36yaagny1uXfbadc9f+5BeBf7U+lRmQqY3EHbGQpP8UdW8AC+cywSwQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-color/-/d3-color-3.0.2.tgz
+    version: 3.0.2
+  registry.npmjs.org/@types/d3-contour/3.0.1:
+    dependencies:
+      '@types/d3-array': registry.npmjs.org/@types/d3-array/3.0.1
+      '@types/geojson': registry.npmjs.org/@types/geojson/7946.0.8
+    dev: true
+    name: '@types/d3-contour'
+    resolution:
+      integrity: sha512-C3zfBrhHZvrpAAK3YXqLWVAGo87A4SvJ83Q/zVJ8rFWJdKejUnDYaWZPkA8K84kb2vDA/g90LTQAz7etXcgoQQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-contour/-/d3-contour-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3-delaunay/6.0.0:
+    dev: true
+    name: '@types/d3-delaunay'
+    resolution:
+      integrity: sha512-iGm7ZaGLq11RK3e69VeMM6Oqj2SjKUB9Qhcyd1zIcqn2uE8w9GFB445yCY46NOQO3ByaNyktX1DK+Etz7ZaX+w==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-delaunay/-/d3-delaunay-6.0.0.tgz
+    version: 6.0.0
+  registry.npmjs.org/@types/d3-dispatch/3.0.1:
+    dev: true
+    name: '@types/d3-dispatch'
+    resolution:
+      integrity: sha512-NhxMn3bAkqhjoxabVJWKryhnZXXYYVQxaBnbANu0O94+O/nX9qSjrA1P1jbAQJxJf+VC72TxDX/YJcKue5bRqw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-dispatch/-/d3-dispatch-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3-drag/3.0.1:
+    dependencies:
+      '@types/d3-selection': registry.npmjs.org/@types/d3-selection/3.0.1
+    dev: true
+    name: '@types/d3-drag'
+    resolution:
+      integrity: sha512-o1Va7bLwwk6h03+nSM8dpaGEYnoIG19P0lKqlic8Un36ymh9NSkNFX1yiXMKNMx8rJ0Kfnn2eovuFaL6Jvj0zA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-drag/-/d3-drag-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3-dsv/3.0.0:
+    dev: true
+    name: '@types/d3-dsv'
+    resolution:
+      integrity: sha512-o0/7RlMl9p5n6FQDptuJVMxDf/7EDEv2SYEO/CwdG2tr1hTfUVi0Iavkk2ax+VpaQ/1jVhpnj5rq1nj8vwhn2A==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-dsv/-/d3-dsv-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/@types/d3-ease/3.0.0:
+    dev: true
+    name: '@types/d3-ease'
+    resolution:
+      integrity: sha512-aMo4eaAOijJjA6uU+GIeW018dvy9+oH5Y2VPPzjjfxevvGQ/oRDs+tfYC9b50Q4BygRR8yE2QCLsrT0WtAVseA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-ease/-/d3-ease-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/@types/d3-fetch/3.0.1:
+    dependencies:
+      '@types/d3-dsv': registry.npmjs.org/@types/d3-dsv/3.0.0
+    dev: true
+    name: '@types/d3-fetch'
+    resolution:
+      integrity: sha512-toZJNOwrOIqz7Oh6Q7l2zkaNfXkfR7mFSJvGvlD/Ciq/+SQ39d5gynHJZ/0fjt83ec3WL7+u3ssqIijQtBISsw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-fetch/-/d3-fetch-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3-force/3.0.3:
+    dev: true
+    name: '@types/d3-force'
+    resolution:
+      integrity: sha512-z8GteGVfkWJMKsx6hwC3SiTSLspL98VNpmvLpEFJQpZPq6xpA1I8HNBDNSpukfK0Vb0l64zGFhzunLgEAcBWSA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-force/-/d3-force-3.0.3.tgz
+    version: 3.0.3
+  registry.npmjs.org/@types/d3-format/3.0.1:
+    dev: true
+    name: '@types/d3-format'
+    resolution:
+      integrity: sha512-5KY70ifCCzorkLuIkDe0Z9YTf9RR2CjBX1iaJG+rgM/cPP+sO+q9YdQ9WdhQcgPj1EQiJ2/0+yUkkziTG6Lubg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-format/-/d3-format-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3-geo/3.0.2:
+    dependencies:
+      '@types/geojson': registry.npmjs.org/@types/geojson/7946.0.8
+    dev: true
+    name: '@types/d3-geo'
+    resolution:
+      integrity: sha512-DbqK7MLYA8LpyHQfv6Klz0426bQEf7bRTvhMy44sNGVyZoWn//B0c+Qbeg8Osi2Obdc9BLLXYAKpyWege2/7LQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-geo/-/d3-geo-3.0.2.tgz
+    version: 3.0.2
+  registry.npmjs.org/@types/d3-hierarchy/3.0.2:
+    dev: true
+    name: '@types/d3-hierarchy'
+    resolution:
+      integrity: sha512-+krnrWOZ+aQB6v+E+jEkmkAx9HvsNAD+1LCD0vlBY3t+HwjKnsBFbpVLx6WWzDzCIuiTWdAxXMEnGnVXpB09qQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-hierarchy/-/d3-hierarchy-3.0.2.tgz
+    version: 3.0.2
+  registry.npmjs.org/@types/d3-interpolate/3.0.1:
+    dependencies:
+      '@types/d3-color': registry.npmjs.org/@types/d3-color/3.0.2
+    dev: true
+    name: '@types/d3-interpolate'
+    resolution:
+      integrity: sha512-jx5leotSeac3jr0RePOH1KdR9rISG91QIE4Q2PYTu4OymLTZfA3SrnURSLzKH48HmXVUru50b8nje4E79oQSQw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-interpolate/-/d3-interpolate-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3-path/3.0.0:
+    dev: true
+    name: '@types/d3-path'
+    resolution:
+      integrity: sha512-0g/A+mZXgFkQxN3HniRDbXMN79K3CdTpLsevj+PXiTcb2hVyvkZUBg37StmgCQkaD84cUJ4uaDAWq7UJOQy2Tg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-path/-/d3-path-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/@types/d3-polygon/3.0.0:
+    dev: true
+    name: '@types/d3-polygon'
+    resolution:
+      integrity: sha512-D49z4DyzTKXM0sGKVqiTDTYr+DHg/uxsiWDAkNrwXYuiZVd9o9wXZIo+YsHkifOiyBkmSWlEngHCQme54/hnHw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-polygon/-/d3-polygon-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/@types/d3-quadtree/3.0.2:
+    dev: true
+    name: '@types/d3-quadtree'
+    resolution:
+      integrity: sha512-QNcK8Jguvc8lU+4OfeNx+qnVy7c0VrDJ+CCVFS9srBo2GL9Y18CnIxBdTF3v38flrGy5s1YggcoAiu6s4fLQIw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-quadtree/-/d3-quadtree-3.0.2.tgz
+    version: 3.0.2
+  registry.npmjs.org/@types/d3-random/3.0.1:
+    dev: true
+    name: '@types/d3-random'
+    resolution:
+      integrity: sha512-IIE6YTekGczpLYo/HehAy3JGF1ty7+usI97LqraNa8IiDur+L44d0VOjAvFQWJVdZOJHukUJw+ZdZBlgeUsHOQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-random/-/d3-random-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3-scale-chromatic/3.0.0:
+    dev: true
+    name: '@types/d3-scale-chromatic'
+    resolution:
+      integrity: sha512-dsoJGEIShosKVRBZB0Vo3C8nqSDqVGujJU6tPznsBJxNJNwMF8utmS83nvCBKQYPpjCzaaHcrf66iTRpZosLPw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-scale-chromatic/-/d3-scale-chromatic-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/@types/d3-scale/4.0.1:
+    dependencies:
+      '@types/d3-time': registry.npmjs.org/@types/d3-time/3.0.0
+    dev: true
+    name: '@types/d3-scale'
+    resolution:
+      integrity: sha512-GDuXcRcR6mKcpUVMhPNttpOzHi2dP6YcDqLZYSZHgwTZ+sfCa8e9q0VEBwZomblAPNMYpVqxojnSyIEb4s/Pwg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-scale/-/d3-scale-4.0.1.tgz
+    version: 4.0.1
+  registry.npmjs.org/@types/d3-selection/3.0.1:
+    dev: true
+    name: '@types/d3-selection'
+    resolution:
+      integrity: sha512-aJ1d1SCUtERHH65bB8NNoLpUOI3z8kVcfg2BGm4rMMUwuZF4x6qnIEKjT60Vt0o7gP/a/xkRVs4D9CpDifbyRA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-selection/-/d3-selection-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3-shape/3.0.2:
+    dependencies:
+      '@types/d3-path': registry.npmjs.org/@types/d3-path/3.0.0
+    dev: true
+    name: '@types/d3-shape'
+    resolution:
+      integrity: sha512-5+ButCmIfNX8id5seZ7jKj3igdcxx+S9IDBiT35fQGTLZUfkFgTv+oBH34xgeoWDKpWcMITSzBILWQtBoN5Piw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-shape/-/d3-shape-3.0.2.tgz
+    version: 3.0.2
+  registry.npmjs.org/@types/d3-time-format/4.0.0:
+    dev: true
+    name: '@types/d3-time-format'
+    resolution:
+      integrity: sha512-yjfBUe6DJBsDin2BMIulhSHmr5qNR5Pxs17+oW4DoVPyVIXZ+m6bs7j1UVKP08Emv6jRmYrYqxYzO63mQxy1rw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-time-format/-/d3-time-format-4.0.0.tgz
+    version: 4.0.0
+  registry.npmjs.org/@types/d3-time/3.0.0:
+    dev: true
+    name: '@types/d3-time'
+    resolution:
+      integrity: sha512-sZLCdHvBUcNby1cB6Fd3ZBrABbjz3v1Vm90nysCQ6Vt7vd6e/h9Lt7SiJUoEX0l4Dzc7P5llKyhqSi1ycSf1Hg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-time/-/d3-time-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/@types/d3-timer/3.0.0:
+    dev: true
+    name: '@types/d3-timer'
+    resolution:
+      integrity: sha512-HNB/9GHqu7Fo8AQiugyJbv6ZxYz58wef0esl4Mv828w1ZKpAshw/uFWVDUcIB9KKFeFKoxS3cHY07FFgtTRZ1g==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-timer/-/d3-timer-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/@types/d3-transition/3.0.1:
+    dependencies:
+      '@types/d3-selection': registry.npmjs.org/@types/d3-selection/3.0.1
+    dev: true
+    name: '@types/d3-transition'
+    resolution:
+      integrity: sha512-Sv4qEI9uq3bnZwlOANvYK853zvpdKEm1yz9rcc8ZTsxvRklcs9Fx4YFuGA3gXoQN/c/1T6QkVNjhaRO/cWj94g==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-transition/-/d3-transition-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3-zoom/3.0.1:
+    dependencies:
+      '@types/d3-interpolate': registry.npmjs.org/@types/d3-interpolate/3.0.1
+      '@types/d3-selection': registry.npmjs.org/@types/d3-selection/3.0.1
+    dev: true
+    name: '@types/d3-zoom'
+    resolution:
+      integrity: sha512-7s5L9TjfqIYQmQQEUcpMAcBOahem7TRoSO/+Gkz02GbMVuULiZzjF2BOdw291dbO2aNon4m2OdFsRGaCq2caLQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3-zoom/-/d3-zoom-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/@types/d3/7.0.0:
+    dependencies:
+      '@types/d3-array': registry.npmjs.org/@types/d3-array/3.0.1
+      '@types/d3-axis': registry.npmjs.org/@types/d3-axis/3.0.1
+      '@types/d3-brush': registry.npmjs.org/@types/d3-brush/3.0.1
+      '@types/d3-chord': registry.npmjs.org/@types/d3-chord/3.0.1
+      '@types/d3-color': registry.npmjs.org/@types/d3-color/3.0.2
+      '@types/d3-contour': registry.npmjs.org/@types/d3-contour/3.0.1
+      '@types/d3-delaunay': registry.npmjs.org/@types/d3-delaunay/6.0.0
+      '@types/d3-dispatch': registry.npmjs.org/@types/d3-dispatch/3.0.1
+      '@types/d3-drag': registry.npmjs.org/@types/d3-drag/3.0.1
+      '@types/d3-dsv': registry.npmjs.org/@types/d3-dsv/3.0.0
+      '@types/d3-ease': registry.npmjs.org/@types/d3-ease/3.0.0
+      '@types/d3-fetch': registry.npmjs.org/@types/d3-fetch/3.0.1
+      '@types/d3-force': registry.npmjs.org/@types/d3-force/3.0.3
+      '@types/d3-format': registry.npmjs.org/@types/d3-format/3.0.1
+      '@types/d3-geo': registry.npmjs.org/@types/d3-geo/3.0.2
+      '@types/d3-hierarchy': registry.npmjs.org/@types/d3-hierarchy/3.0.2
+      '@types/d3-interpolate': registry.npmjs.org/@types/d3-interpolate/3.0.1
+      '@types/d3-path': registry.npmjs.org/@types/d3-path/3.0.0
+      '@types/d3-polygon': registry.npmjs.org/@types/d3-polygon/3.0.0
+      '@types/d3-quadtree': registry.npmjs.org/@types/d3-quadtree/3.0.2
+      '@types/d3-random': registry.npmjs.org/@types/d3-random/3.0.1
+      '@types/d3-scale': registry.npmjs.org/@types/d3-scale/4.0.1
+      '@types/d3-scale-chromatic': registry.npmjs.org/@types/d3-scale-chromatic/3.0.0
+      '@types/d3-selection': registry.npmjs.org/@types/d3-selection/3.0.1
+      '@types/d3-shape': registry.npmjs.org/@types/d3-shape/3.0.2
+      '@types/d3-time': registry.npmjs.org/@types/d3-time/3.0.0
+      '@types/d3-time-format': registry.npmjs.org/@types/d3-time-format/4.0.0
+      '@types/d3-timer': registry.npmjs.org/@types/d3-timer/3.0.0
+      '@types/d3-transition': registry.npmjs.org/@types/d3-transition/3.0.1
+      '@types/d3-zoom': registry.npmjs.org/@types/d3-zoom/3.0.1
+    dev: true
+    name: '@types/d3'
+    resolution:
+      integrity: sha512-7rMMuS5unvbvFCJXAkQXIxWTo2OUlmVXN5q7sfQFesuVICY55PSP6hhbUhWjTTNpfTTB3iLALsIYDFe7KUNABw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/d3/-/d3-7.0.0.tgz
+    version: 7.0.0
   registry.npmjs.org/@types/debounce/1.2.0:
     dev: true
     name: '@types/debounce'
@@ -1490,6 +1805,14 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@types/earcut/-/earcut-2.1.1.tgz
     version: 2.1.1
+  registry.npmjs.org/@types/geojson/7946.0.8:
+    dev: true
+    name: '@types/geojson'
+    resolution:
+      integrity: sha512-1rkryxURpr6aWP7R786/UQOkJ3PcpQiWkAXBmdWc7ryFWqN6a4xfK7BtjXvFBKO9LjQ+MWQSWxYeZX1OApnArA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/geojson/-/geojson-7946.0.8.tgz
+    version: 7946.0.8
   registry.npmjs.org/@types/hoist-non-react-statics/3.3.1:
     dependencies:
       '@types/react': registry.npmjs.org/@types/react/17.0.14
@@ -1594,7 +1917,7 @@ packages:
     version: 1.4.1
   registry.npmjs.org/@types/react-dom/17.0.9:
     dependencies:
-      '@types/react': registry.npmjs.org/@types/react/17.0.14
+      '@types/react': registry.npmjs.org/@types/react/17.0.16
     dev: true
     name: '@types/react-dom'
     resolution:
@@ -1613,6 +1936,18 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@types/react/-/react-17.0.14.tgz
     version: 17.0.14
+  registry.npmjs.org/@types/react/17.0.16:
+    dependencies:
+      '@types/prop-types': registry.npmjs.org/@types/prop-types/15.7.4
+      '@types/scheduler': registry.npmjs.org/@types/scheduler/0.16.2
+      csstype: registry.npmjs.org/csstype/3.0.8
+    dev: true
+    name: '@types/react'
+    resolution:
+      integrity: sha512-3kCUiOOlQTwUUvjNFkbBTWMTxdTGybz/PfjCw9JmaRGcEDBQh+nGMg7/E9P2rklhJuYVd25IYLNcvqgSPCPksg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/react/-/react-17.0.16.tgz
+    version: 17.0.16
   registry.npmjs.org/@types/scheduler/0.16.2:
     name: '@types/scheduler'
     resolution:
@@ -2018,6 +2353,16 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/colord/-/colord-2.1.0.tgz
     version: 2.1.0
+  registry.npmjs.org/commander/7.2.0:
+    dev: false
+    engines:
+      node: '>= 10'
+    name: commander
+    resolution:
+      integrity: sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/commander/-/commander-7.2.0.tgz
+    version: 7.2.0
   registry.npmjs.org/compute-scroll-into-view/1.0.17:
     dev: false
     name: compute-scroll-into-view
@@ -2045,15 +2390,15 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.15.2.tgz
     version: 3.15.2
-  registry.npmjs.org/core-js/3.15.2:
+  registry.npmjs.org/core-js/3.16.0:
     dev: false
     name: core-js
     requiresBuild: true
     resolution:
-      integrity: sha512-tKs41J7NJVuaya8DxIOCnl8QuPHx5/ZVbFo1oKgVl1qHFBBrDctzQGtuLjPpRdNTWmKPH6oEvgN/MUID+l485Q==
+      integrity: sha512-5+5VxRFmSf97nM8Jr2wzOwLqRo6zphH2aX+7KsAUONObyzakDNq2G/bgbhinxB4PoV9L3aXQYhiDKyIKWd2c8g==
       registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/core-js/-/core-js-3.15.2.tgz
-    version: 3.15.2
+      tarball: https://registry.npmjs.org/core-js/-/core-js-3.16.0.tgz
+    version: 3.16.0
   registry.npmjs.org/css-color-keywords/1.0.0:
     dev: false
     engines:
@@ -2083,6 +2428,410 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/csstype/-/csstype-3.0.8.tgz
     version: 3.0.8
+  registry.npmjs.org/d3-array/3.0.1:
+    dependencies:
+      internmap: registry.npmjs.org/internmap/2.0.1
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-array
+    resolution:
+      integrity: sha512-l3Bh5o8RSoC3SBm5ix6ogaFW+J6rOUm42yOtZ2sQPCEvCqUMepeX7zgrlLLGIemxgOyo9s2CsWEidnLv5PwwRw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-array/-/d3-array-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-axis/3.0.0:
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-axis
+    resolution:
+      integrity: sha512-IH5tgjV4jE/GhHkRV0HiVYPDtvfjHQlQfJHs0usq7M30XcSBvOotpmH1IgkcXsO/5gEQZD43B//fc7SRT5S+xw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-axis/-/d3-axis-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/d3-brush/3.0.0:
+    dependencies:
+      d3-dispatch: registry.npmjs.org/d3-dispatch/3.0.1
+      d3-drag: registry.npmjs.org/d3-drag/3.0.0
+      d3-interpolate: registry.npmjs.org/d3-interpolate/3.0.1
+      d3-selection: registry.npmjs.org/d3-selection/3.0.0
+      d3-transition: registry.npmjs.org/d3-transition/3.0.1_d3-selection@3.0.0
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-brush
+    resolution:
+      integrity: sha512-ALnjWlVYkXsVIGlOsuWH1+3udkYFI48Ljihfnh8FZPF2QS9o+PzGLBslO0PjzVoHLZ2KCVgAM8NVkXPJB2aNnQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-brush/-/d3-brush-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/d3-chord/3.0.1:
+    dependencies:
+      d3-path: registry.npmjs.org/d3-path/3.0.1
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-chord
+    resolution:
+      integrity: sha512-VE5S6TNa+j8msksl7HwjxMHDM2yNK3XCkusIlpX5kwauBfXuyLAtNg9jCp/iHH61tgI4sb6R/EIMWCqEIdjT/g==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-chord/-/d3-chord-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-color/3.0.1:
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-color
+    resolution:
+      integrity: sha512-6/SlHkDOBLyQSJ1j1Ghs82OIUXpKWlR0hCsw0XrLSQhuUPuCSmLQ1QPH98vpnQxMUQM2/gfAkUEWsupVpd9JGw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-color/-/d3-color-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-contour/3.0.1:
+    dependencies:
+      d3-array: registry.npmjs.org/d3-array/3.0.1
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-contour
+    resolution:
+      integrity: sha512-0Oc4D0KyhwhM7ZL0RMnfGycLN7hxHB8CMmwZ3+H26PWAG0ozNuYG5hXSDNgmP1SgJkQMrlG6cP20HoaSbvcJTQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-contour/-/d3-contour-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-delaunay/6.0.2:
+    dependencies:
+      delaunator: registry.npmjs.org/delaunator/5.0.0
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-delaunay
+    resolution:
+      integrity: sha512-IMLNldruDQScrcfT+MWnazhHbDJhcRJyOEBAJfwQnHle1RPh6WDuLvxNArUju2VSMSUuKlY5BGHRJ2cYyoFLQQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-delaunay/-/d3-delaunay-6.0.2.tgz
+    version: 6.0.2
+  registry.npmjs.org/d3-dispatch/3.0.1:
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-dispatch
+    resolution:
+      integrity: sha512-rzUyPU/S7rwUflMyLc1ETDeBj0NRuHKKAcvukozwhshr6g6c5d8zh4c2gQjY2bZ0dXeGLWc1PF174P2tVvKhfg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-dispatch/-/d3-dispatch-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-drag/3.0.0:
+    dependencies:
+      d3-dispatch: registry.npmjs.org/d3-dispatch/3.0.1
+      d3-selection: registry.npmjs.org/d3-selection/3.0.0
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-drag
+    resolution:
+      integrity: sha512-pWbUJLdETVA8lQNJecMxoXfH6x+mO2UQo8rSmZ+QqxcbyA3hfeprFgIT//HW2nlHChWeIIMwS2Fq+gEARkhTkg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-drag/-/d3-drag-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/d3-dsv/3.0.1:
+    dependencies:
+      commander: registry.npmjs.org/commander/7.2.0
+      iconv-lite: registry.npmjs.org/iconv-lite/0.6.3
+      rw: registry.npmjs.org/rw/1.3.3
+    dev: false
+    engines:
+      node: '>=12'
+    hasBin: true
+    name: d3-dsv
+    resolution:
+      integrity: sha512-UG6OvdI5afDIFP9w4G0mNq50dSOsXHJaRE8arAS5o9ApWnIElp8GZw1Dun8vP8OyHOZ/QJUKUJwxiiCCnUwm+Q==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-dsv/-/d3-dsv-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-ease/3.0.1:
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-ease
+    resolution:
+      integrity: sha512-wR/XK3D3XcLIZwpbvQwQ5fK+8Ykds1ip7A2Txe0yxncXSdq1L9skcG7blcedkOX+ZcgxGAmLX1FrRGbADwzi0w==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-ease/-/d3-ease-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-fetch/3.0.1:
+    dependencies:
+      d3-dsv: registry.npmjs.org/d3-dsv/3.0.1
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-fetch
+    resolution:
+      integrity: sha512-kpkQIM20n3oLVBKGg6oHrUchHM3xODkTzjMoj7aWQFq5QEM+R6E4WkzT5+tojDY7yjez8KgCBRoj4aEr99Fdqw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-fetch/-/d3-fetch-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-force/3.0.0:
+    dependencies:
+      d3-dispatch: registry.npmjs.org/d3-dispatch/3.0.1
+      d3-quadtree: registry.npmjs.org/d3-quadtree/3.0.1
+      d3-timer: registry.npmjs.org/d3-timer/3.0.1
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-force
+    resolution:
+      integrity: sha512-zxV/SsA+U4yte8051P4ECydjD/S+qeYtnaIyAs9tgHCqfguma/aAQDjo85A9Z6EKhBirHRJHXIgJUlffT4wdLg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-force/-/d3-force-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/d3-format/3.0.1:
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-format
+    resolution:
+      integrity: sha512-hdL7+HBIohpgfolhBxr1KX47VMD6+vVD/oEFrxk5yhmzV2prk99EkFKYpXuhVkFpTgHdJ6/4bYcjdLPPXV4tIA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-format/-/d3-format-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-geo/3.0.1:
+    dependencies:
+      d3-array: registry.npmjs.org/d3-array/3.0.1
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-geo
+    resolution:
+      integrity: sha512-Wt23xBych5tSy9IYAM1FR2rWIBFWa52B/oF/GYe5zbdHrg08FU8+BuI6X4PvTwPDdqdAdq04fuWJpELtsaEjeA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-geo/-/d3-geo-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-hierarchy/3.0.1:
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-hierarchy
+    resolution:
+      integrity: sha512-RlLTaofEoOrMK1JoXYIGhKTkJFI/6rFrYPgxy6QlZo2BcVc4HGTqEU0rPpzuMq5T/5XcMtAzv1XiLA3zRTfygw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-hierarchy/-/d3-hierarchy-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-interpolate/3.0.1:
+    dependencies:
+      d3-color: registry.npmjs.org/d3-color/3.0.1
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-interpolate
+    resolution:
+      integrity: sha512-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2+L9vBKEHJ2Rg+viTR7o5Mmv5mZcieN+FRYaAOWX5SJATX6k1PWz72g==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-path/3.0.1:
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-path
+    resolution:
+      integrity: sha512-gq6gZom9AFZby0YLduxT1qmrp4xpBA1YZr19OI717WIdKE2OM5ETq5qrHLb301IgxhLwcuxvGZVLeeWc/k1I6w==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-path/-/d3-path-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-polygon/3.0.1:
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-polygon
+    resolution:
+      integrity: sha512-3vbA7vXYwfe1SYhED++fPUQlWSYTTGmFmQiany/gdbiWgU/iEyQzyymwL9SkJjFFuCS4902BSzewVGsHHmHtXg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-polygon/-/d3-polygon-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-quadtree/3.0.1:
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-quadtree
+    resolution:
+      integrity: sha512-04xDrxQTDTCFwP5H6hRhsRcb9xxv2RzkcsygFzmkSIOJy3PeRJP7sNk3VRIbKXcog561P9oU0/rVH6vDROAgUw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-quadtree/-/d3-quadtree-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-random/3.0.1:
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-random
+    resolution:
+      integrity: sha512-FXMe9GfxTxqd5D6jFsQ+DJ8BJS4E/fT5mqqdjovykEB2oFbTMDVdg1MGFxfQW+FBOGoB++k8swBrgwSHT1cUXQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-random/-/d3-random-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-scale-chromatic/3.0.0:
+    dependencies:
+      d3-color: registry.npmjs.org/d3-color/3.0.1
+      d3-interpolate: registry.npmjs.org/d3-interpolate/3.0.1
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-scale-chromatic
+    resolution:
+      integrity: sha512-Lx9thtxAKrO2Pq6OO2Ua474opeziKr279P/TKZsMAhYyNDD3EnCffdbgeSYN5O7m2ByQsxtuP2CSDczNUIZ22g==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-scale-chromatic/-/d3-scale-chromatic-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/d3-scale/4.0.0:
+    dependencies:
+      d3-array: registry.npmjs.org/d3-array/3.0.1
+      d3-format: registry.npmjs.org/d3-format/3.0.1
+      d3-interpolate: registry.npmjs.org/d3-interpolate/3.0.1
+      d3-time: registry.npmjs.org/d3-time/3.0.0
+      d3-time-format: registry.npmjs.org/d3-time-format/4.0.0
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-scale
+    resolution:
+      integrity: sha512-foHQYKpWQcyndH1CGoHdUC4PECxTxonzwwBXGT8qu+Drb1FIc6ON6dG2P5f4hRRMkLiIKeWK7iFtdznDUrnuPQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-scale/-/d3-scale-4.0.0.tgz
+    version: 4.0.0
+  registry.npmjs.org/d3-selection/3.0.0:
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-selection
+    resolution:
+      integrity: sha512-fmTRWbNMmsmWq6xJV8D19U/gw/bwrHfNXxrIN+HfZgnzqTHp9jOmKMhsTUjXOJnZOdZY9Q28y4yebKzqDKlxlQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-selection/-/d3-selection-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/d3-shape/3.0.1:
+    dependencies:
+      d3-path: registry.npmjs.org/d3-path/3.0.1
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-shape
+    resolution:
+      integrity: sha512-HNZNEQoDhuCrDWEc/BMbF/hKtzMZVoe64TvisFLDp2Iyj0UShB/E6/lBsLlJTfBMbYgftHj90cXJ0SEitlE6Xw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-shape/-/d3-shape-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-time-format/4.0.0:
+    dependencies:
+      d3-time: registry.npmjs.org/d3-time/3.0.0
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-time-format
+    resolution:
+      integrity: sha512-nzaCwlj+ZVBIlFuVOT1RmU+6xb/7D5IcnhHzHQcBgS/aTa5K9fWZNN5LCXA27LgF5WxoSNJqKBbLcGMtM6Ca6A==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-time-format/-/d3-time-format-4.0.0.tgz
+    version: 4.0.0
+  registry.npmjs.org/d3-time/3.0.0:
+    dependencies:
+      d3-array: registry.npmjs.org/d3-array/3.0.1
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-time
+    resolution:
+      integrity: sha512-zmV3lRnlaLI08y9IMRXSDshQb5Nj77smnfpnd2LrBa/2K281Jijactokeak14QacHs/kKq0AQ121nidNYlarbQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-time/-/d3-time-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/d3-timer/3.0.1:
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-timer
+    resolution:
+      integrity: sha512-ndfJ/JxxMd3nw31uyKoY2naivF+r29V+Lc0svZxe1JvvIRmi8hUsrMvdOwgS1o6uBHmiz91geQ0ylPP0aj1VUA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-timer/-/d3-timer-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-transition/3.0.1_d3-selection@3.0.0:
+    dependencies:
+      d3-color: registry.npmjs.org/d3-color/3.0.1
+      d3-dispatch: registry.npmjs.org/d3-dispatch/3.0.1
+      d3-ease: registry.npmjs.org/d3-ease/3.0.1
+      d3-interpolate: registry.npmjs.org/d3-interpolate/3.0.1
+      d3-selection: registry.npmjs.org/d3-selection/3.0.0
+      d3-timer: registry.npmjs.org/d3-timer/3.0.1
+    dev: false
+    engines:
+      node: '>=12'
+    id: registry.npmjs.org/d3-transition/3.0.1
+    name: d3-transition
+    peerDependencies:
+      d3-selection: 2 - 3
+    resolution:
+      integrity: sha512-ApKvfjsSR6tg06xrL434C0WydLr7JewBB3V+/39RMHsaXTOG0zmt/OAXeng5M5LBm0ojmxJrpomQVZ1aPvBL4w==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-transition/-/d3-transition-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/d3-zoom/3.0.0:
+    dependencies:
+      d3-dispatch: registry.npmjs.org/d3-dispatch/3.0.1
+      d3-drag: registry.npmjs.org/d3-drag/3.0.0
+      d3-interpolate: registry.npmjs.org/d3-interpolate/3.0.1
+      d3-selection: registry.npmjs.org/d3-selection/3.0.0
+      d3-transition: registry.npmjs.org/d3-transition/3.0.1_d3-selection@3.0.0
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3-zoom
+    resolution:
+      integrity: sha512-b8AmV3kfQaqWAuacbPuNbL6vahnOJflOhexLzMMNLga62+/nh0JzvJ0aO/5a5MVgUFGS7Hu1P9P03o3fJkDCyw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3-zoom/-/d3-zoom-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/d3/7.0.0:
+    dependencies:
+      d3-array: registry.npmjs.org/d3-array/3.0.1
+      d3-axis: registry.npmjs.org/d3-axis/3.0.0
+      d3-brush: registry.npmjs.org/d3-brush/3.0.0
+      d3-chord: registry.npmjs.org/d3-chord/3.0.1
+      d3-color: registry.npmjs.org/d3-color/3.0.1
+      d3-contour: registry.npmjs.org/d3-contour/3.0.1
+      d3-delaunay: registry.npmjs.org/d3-delaunay/6.0.2
+      d3-dispatch: registry.npmjs.org/d3-dispatch/3.0.1
+      d3-drag: registry.npmjs.org/d3-drag/3.0.0
+      d3-dsv: registry.npmjs.org/d3-dsv/3.0.1
+      d3-ease: registry.npmjs.org/d3-ease/3.0.1
+      d3-fetch: registry.npmjs.org/d3-fetch/3.0.1
+      d3-force: registry.npmjs.org/d3-force/3.0.0
+      d3-format: registry.npmjs.org/d3-format/3.0.1
+      d3-geo: registry.npmjs.org/d3-geo/3.0.1
+      d3-hierarchy: registry.npmjs.org/d3-hierarchy/3.0.1
+      d3-interpolate: registry.npmjs.org/d3-interpolate/3.0.1
+      d3-path: registry.npmjs.org/d3-path/3.0.1
+      d3-polygon: registry.npmjs.org/d3-polygon/3.0.1
+      d3-quadtree: registry.npmjs.org/d3-quadtree/3.0.1
+      d3-random: registry.npmjs.org/d3-random/3.0.1
+      d3-scale: registry.npmjs.org/d3-scale/4.0.0
+      d3-scale-chromatic: registry.npmjs.org/d3-scale-chromatic/3.0.0
+      d3-selection: registry.npmjs.org/d3-selection/3.0.0
+      d3-shape: registry.npmjs.org/d3-shape/3.0.1
+      d3-time: registry.npmjs.org/d3-time/3.0.0
+      d3-time-format: registry.npmjs.org/d3-time-format/4.0.0
+      d3-timer: registry.npmjs.org/d3-timer/3.0.1
+      d3-transition: registry.npmjs.org/d3-transition/3.0.1_d3-selection@3.0.0
+      d3-zoom: registry.npmjs.org/d3-zoom/3.0.0
+    dev: false
+    engines:
+      node: '>=12'
+    name: d3
+    resolution:
+      integrity: sha512-t+jEKGO2jQiSBLJYYq6RFc500tsCeXBB4x41oQaSnZD3Som95nQrlw9XJGrFTMUOQOkwSMauWy9+8Tz1qm9UZw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/d3/-/d3-7.0.0.tgz
+    version: 7.0.0
   registry.npmjs.org/date-fns/2.22.1:
     dev: false
     engines:
@@ -2120,6 +2869,16 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/debug/-/debug-4.3.2.tgz
     version: 4.3.2
+  registry.npmjs.org/delaunator/5.0.0:
+    dependencies:
+      robust-predicates: registry.npmjs.org/robust-predicates/3.0.1
+    dev: false
+    name: delaunator
+    resolution:
+      integrity: sha512-AyLvtyJdbv/U1GkiS6gUUzclRoAY4Gs75qkMygJJhU75LW4DNuSF2RMzpxs9jw9Oz1BobHjTdkG3zdP55VxAqw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/delaunator/-/delaunator-5.0.0.tgz
+    version: 5.0.0
   registry.npmjs.org/dequal/2.0.2:
     dev: false
     engines:
@@ -2277,6 +3036,28 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz
     version: 3.3.2
+  registry.npmjs.org/iconv-lite/0.6.3:
+    dependencies:
+      safer-buffer: registry.npmjs.org/safer-buffer/2.1.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    name: iconv-lite
+    resolution:
+      integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz
+    version: 0.6.3
+  registry.npmjs.org/internmap/2.0.1:
+    dev: false
+    engines:
+      node: '>=12'
+    name: internmap
+    resolution:
+      integrity: sha512-Ujwccrj9FkGqjbY3iVoxD1VV+KdZZeENx0rphrtzmRXbFvkFO88L80BL/zeSIguX/7T+y8k04xqtgWgS5vxwxw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/internmap/-/internmap-2.0.1.tgz
+    version: 2.0.1
   registry.npmjs.org/intersection-observer/0.7.0:
     dev: false
     name: intersection-observer
@@ -3415,6 +4196,22 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/react-dropzone/-/react-dropzone-11.3.4.tgz
     version: 11.3.4
+  registry.npmjs.org/react-hexgrid/1.0.3_prop-types@15.7.2+react@16.13.1:
+    dependencies:
+      classnames: registry.npmjs.org/classnames/2.3.1
+      prop-types: registry.npmjs.org/prop-types/15.7.2
+      react: registry.npmjs.org/react/16.13.1
+    dev: false
+    id: registry.npmjs.org/react-hexgrid/1.0.3
+    name: react-hexgrid
+    peerDependencies:
+      prop-types: ^15.0.1
+      react: ^15.0.1
+    resolution:
+      integrity: sha512-+rXia1Q/tGtEWrRRNGku9dZx+3yVcotr4cs3IF0PddJaaddpxUEMgZDqSway0QGNTT43eVbclR5UScwHBgnx2A==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/react-hexgrid/-/react-hexgrid-1.0.3.tgz
+    version: 1.0.3
   registry.npmjs.org/react-is/16.13.1:
     dev: false
     name: react-is
@@ -3535,6 +4332,30 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/resource-loader/-/resource-loader-3.0.1.tgz
     version: 3.0.1
+  registry.npmjs.org/robust-predicates/3.0.1:
+    dev: false
+    name: robust-predicates
+    resolution:
+      integrity: sha512-ndEIpszUHiG4HtDsQLeIuMvRsDnn8c8rYStabochtUeCvfuvNptb5TUbVD68LRAILPX7p9nqQGh4xJgn3EHS/g==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/robust-predicates/-/robust-predicates-3.0.1.tgz
+    version: 3.0.1
+  registry.npmjs.org/rw/1.3.3:
+    dev: false
+    name: rw
+    resolution:
+      integrity: sha1-P4Yt+pGrdmsUiF700BEkv9oHT7Q=
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/rw/-/rw-1.3.3.tgz
+    version: 1.3.3
+  registry.npmjs.org/safer-buffer/2.1.2:
+    dev: false
+    name: safer-buffer
+    resolution:
+      integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz
+    version: 2.1.2
   registry.npmjs.org/scheduler/0.19.1:
     dependencies:
       loose-envify: registry.npmjs.org/loose-envify/1.4.0
