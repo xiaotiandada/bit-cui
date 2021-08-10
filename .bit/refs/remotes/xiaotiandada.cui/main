@@ -117,5 +117,19 @@
       "name": "animated/tile-sprite"
     },
     "head": "0f767d53fe6955317932eb1e5ab9d21c7a177d72"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "svg/hexagon-page"
+    },
+    "head": "eaa7339a6f8cd127a12e28cf41a0008acb762849"
+  },
+  {
+    "id": {
+      "scope": "xiaotiandada.cui",
+      "name": "chain/wallet"
+    },
+    "head": "b8cbb993e6a2893f52c553fb70d73a99e91e680e"
   }
 ]

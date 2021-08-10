@@ -98,5 +98,10 @@
     "scope": null,
     "name": "svg/hexagon-page",
     "version": "0.0.1"
+  },
+  {
+    "scope": "xiaotiandada.cui",
+    "name": "svg/hexagon-page",
+    "version": "0.0.2"
   }
 ]

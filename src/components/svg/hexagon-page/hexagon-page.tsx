@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { HexGrid, Layout, Hexagon, Text, GridGenerator, HexUtils } from 'react-hexgrid';
 import styles from './hexagon-page.module.scss'
-import d3 from 'd3'
+import * as d3 from 'd3'
 
 export type HexagonPageProps = {
   /**
@@ -32,7 +32,7 @@ export function HexagonPage({ text }: HexagonPageProps) {
   const [origin, setOrigin] = useState<{ x: number, y: number }>(config.origin);
 
   const resizeFn = useCallback(
-    () => { 
+    () => {
       setWidth(window.innerWidth * 1)
       setHeight(window.innerHeight * 1)
 
@@ -47,7 +47,7 @@ export function HexagonPage({ text }: HexagonPageProps) {
   useEffect(() => {
     resizeFn()
     window.addEventListener('resize', resizeFn)
-  }, [resizeFn]);
+  }, []);
 
   useEffect(() => {
     const generator = GridGenerator.getGenerator(config.map);
@@ -55,9 +55,12 @@ export function HexagonPage({ text }: HexagonPageProps) {
 
     console.log('hexagons', hexagons)
     setHex(hexagons)
+
+    setContainerDrag()
   }, []);
 
-  useEffect(() => {
+  // 设置内容拖动 缩放
+  const setContainerDrag = useCallback(() => {
     const svg = d3.select('#container svg')
     const zoom = d3.zoom()
 

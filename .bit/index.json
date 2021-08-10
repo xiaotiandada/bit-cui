@@ -727,6 +727,22 @@
       },
       "isSymlink": false,
       "hash": "233867f4454c0b74daf322c947865a1823de8fd9"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "chain/wallet"
+      },
+      "isSymlink": true,
+      "hash": "7146b39b49c746314ccb9b5603118c169e5122ca"
+    },
+    {
+      "id": {
+        "scope": "xiaotiandada.cui",
+        "name": "chain/wallet"
+      },
+      "isSymlink": false,
+      "hash": "4dc9b5a9b529250af212610e5ebe46d2531cdfaf"
     }
   ],
   "lanes": []
