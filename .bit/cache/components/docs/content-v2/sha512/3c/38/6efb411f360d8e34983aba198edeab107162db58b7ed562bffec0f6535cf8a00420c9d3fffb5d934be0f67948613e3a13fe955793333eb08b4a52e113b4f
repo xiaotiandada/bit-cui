@@ -1,1 +1,0 @@
-[{"filePath":"blockies.tsx","name":"Blockies","description":"","properties":[{"name":"text","description":"a text to be rendered in the component.","required":true,"type":"any"}],"access":"public","methods":[],"args":[],"examples":[]}]

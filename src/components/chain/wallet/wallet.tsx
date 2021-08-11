@@ -11,7 +11,7 @@ export type WalletProps = {
 export function Wallet({ text }: WalletProps) {
   return (
     <div>
-      {text}
+      <iframe width="500px" height="500px" src="https://chain-temp.vercel.app/"></iframe>
     </div>
   );
 }

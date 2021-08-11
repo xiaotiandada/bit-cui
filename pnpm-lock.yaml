@@ -5,7 +5,6 @@ importers:
       '@pixi/sprite-tiling': registry.npmjs.org/@pixi/sprite-tiling/6.0.4
       '@react-spring/types': registry.npmjs.org/@react-spring/types/9.2.4
       '@types/styled-components': registry.npmjs.org/@types/styled-components/5.1.11
-      '@web3-react/core': registry.npmjs.org/@web3-react/core/6.1.9_react@16.13.1
       ahooks: registry.npmjs.org/ahooks/2.10.8_react@16.13.1
       animejs: registry.npmjs.org/animejs/3.2.1
       antd: registry.npmjs.org/antd/4.16.8_react-dom@16.13.1+react@16.13.1
@@ -33,7 +32,7 @@ importers:
       '@types/jest': registry.npmjs.org/@types/jest/26.0.24
       '@types/lodash': registry.npmjs.org/@types/lodash/4.14.171
       '@types/node': registry.npmjs.org/@types/node/12.20.4
-      '@types/react': registry.npmjs.org/@types/react/17.0.16
+      '@types/react': registry.npmjs.org/@types/react/17.0.17
       '@types/react-blockies': registry.npmjs.org/@types/react-blockies/1.4.1
       '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.9
       '@types/testing-library__jest-dom': registry.npmjs.org/@types/testing-library__jest-dom/5.9.5
@@ -48,13 +47,12 @@ importers:
       '@types/jest': ^26.0.24
       '@types/lodash': 4.14.171
       '@types/node': 12.20.4
-      '@types/react': ^17.0.16
+      '@types/react': ^17.0.17
       '@types/react-blockies': 1.4.1
       '@types/react-dom': ^17.0.9
       '@types/styled-components': 5.1.11
       '@types/testing-library__jest-dom': 5.9.5
       '@types/wavesurfer.js': 5.1.0
-      '@web3-react/core': 6.1.9
       ahooks: 2.10.8
       animejs: 3.2.1
       antd: 4.16.8
@@ -80,6 +78,8 @@ importers:
   src/components/animated/card-more:
     specifiers: {}
   src/components/animated/tile-sprite:
+    specifiers: {}
+  src/components/chain/wallet:
     specifiers: {}
   src/components/chain/wallett:
     specifiers: {}
@@ -886,7 +886,7 @@ packages:
       '@types/istanbul-reports': registry.npmjs.org/@types/istanbul-reports/3.0.1
       '@types/node': registry.npmjs.org/@types/node/12.20.4
       '@types/yargs': registry.npmjs.org/@types/yargs/15.0.14
-      chalk: registry.npmjs.org/chalk/4.1.1
+      chalk: registry.npmjs.org/chalk/4.1.2
     dev: true
     engines:
       node: '>= 10.14.2'
@@ -2354,7 +2354,7 @@ packages:
     version: 1.4.1
   registry.npmjs.org/@types/react-dom/17.0.9:
     dependencies:
-      '@types/react': registry.npmjs.org/@types/react/17.0.16
+      '@types/react': registry.npmjs.org/@types/react/17.0.17
     dev: true
     name: '@types/react-dom'
     resolution:
@@ -2373,7 +2373,7 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@types/react/-/react-17.0.14.tgz
     version: 17.0.14
-  registry.npmjs.org/@types/react/17.0.16:
+  registry.npmjs.org/@types/react/17.0.17:
     dependencies:
       '@types/prop-types': registry.npmjs.org/@types/prop-types/15.7.4
       '@types/scheduler': registry.npmjs.org/@types/scheduler/0.16.2
@@ -2381,10 +2381,10 @@ packages:
     dev: true
     name: '@types/react'
     resolution:
-      integrity: sha512-3kCUiOOlQTwUUvjNFkbBTWMTxdTGybz/PfjCw9JmaRGcEDBQh+nGMg7/E9P2rklhJuYVd25IYLNcvqgSPCPksg==
+      integrity: sha512-nrfi7I13cAmrd0wje8czYpf5SFbryczCtPzFc6ijqvdjKcyA3tCvGxwchOUlxb2ucBPuJ9Y3oUqKrRqZvrz0lw==
       registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@types/react/-/react-17.0.16.tgz
-    version: 17.0.16
+      tarball: https://registry.npmjs.org/@types/react/-/react-17.0.17.tgz
+    version: 17.0.17
   registry.npmjs.org/@types/scheduler/0.16.2:
     name: '@types/scheduler'
     resolution:
@@ -2452,42 +2452,6 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@types/yargs/-/yargs-16.0.4.tgz
     version: 16.0.4
-  registry.npmjs.org/@web3-react/abstract-connector/6.0.7:
-    dependencies:
-      '@web3-react/types': registry.npmjs.org/@web3-react/types/6.0.7
-    dev: false
-    name: '@web3-react/abstract-connector'
-    resolution:
-      integrity: sha512-RhQasA4Ox8CxUC0OENc1AJJm8UTybu/oOCM61Zjg6y0iF7Z0sqv1Ai1VdhC33hrQpA8qSBgoXN9PaP8jKmtdqg==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@web3-react/abstract-connector/-/abstract-connector-6.0.7.tgz
-    version: 6.0.7
-  registry.npmjs.org/@web3-react/core/6.1.9_react@16.13.1:
-    dependencies:
-      '@ethersproject/keccak256': registry.npmjs.org/@ethersproject/keccak256/5.4.0
-      '@web3-react/abstract-connector': registry.npmjs.org/@web3-react/abstract-connector/6.0.7
-      '@web3-react/types': registry.npmjs.org/@web3-react/types/6.0.7
-      react: registry.npmjs.org/react/16.13.1
-      tiny-invariant: registry.npmjs.org/tiny-invariant/1.1.0
-      tiny-warning: registry.npmjs.org/tiny-warning/1.0.3
-    dev: false
-    id: registry.npmjs.org/@web3-react/core/6.1.9
-    name: '@web3-react/core'
-    peerDependencies:
-      react: '>=16.8'
-    resolution:
-      integrity: sha512-P877DslsbAkWIlMANpWiK7pCvNwlz0kJC0EGckuVh0wlA23J4UnFxq6xyOaxkxaDCu14rA/tAO0NbwjcXTQgSA==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@web3-react/core/-/core-6.1.9.tgz
-    version: 6.1.9
-  registry.npmjs.org/@web3-react/types/6.0.7:
-    dev: false
-    name: '@web3-react/types'
-    resolution:
-      integrity: sha512-ofGmfDhxmNT1/P/MgVa8IKSkCStFiyvXe+U5tyZurKdrtTDFU+wJ/LxClPDtFerWpczNFPUSrKcuhfPX1sI6+A==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@web3-react/types/-/types-6.0.7.tgz
-    version: 6.0.7
   registry.npmjs.org/@welldone-software/why-did-you-render/6.2.0_react@16.13.1:
     dependencies:
       lodash: registry.npmjs.org/lodash/4.17.21
@@ -2775,6 +2739,19 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/chalk/-/chalk-4.1.1.tgz
     version: 4.1.1
+  registry.npmjs.org/chalk/4.1.2:
+    dependencies:
+      ansi-styles: registry.npmjs.org/ansi-styles/4.3.0
+      supports-color: registry.npmjs.org/supports-color/7.2.0
+    dev: true
+    engines:
+      node: '>=10'
+    name: chalk
+    resolution:
+      integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz
+    version: 4.1.2
   registry.npmjs.org/classnames/2.3.1:
     dev: false
     name: classnames
@@ -3711,7 +3688,7 @@ packages:
     version: 3.0.1
   registry.npmjs.org/jest-diff/26.6.2:
     dependencies:
-      chalk: registry.npmjs.org/chalk/4.1.1
+      chalk: registry.npmjs.org/chalk/4.1.2
       diff-sequences: registry.npmjs.org/diff-sequences/26.6.2
       jest-get-type: registry.npmjs.org/jest-get-type/26.3.0
       pretty-format: registry.npmjs.org/pretty-format/26.6.2
@@ -5122,22 +5099,6 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz
     version: 7.2.0
-  registry.npmjs.org/tiny-invariant/1.1.0:
-    dev: false
-    name: tiny-invariant
-    resolution:
-      integrity: sha512-ytxQvrb1cPc9WBEI/HSeYYoGD0kWnGEOR8RY6KomWLBVhqz0RgTwVO9dLrGz7dC+nN9llyI7OKAgRq8Vq4ZBSw==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/tiny-invariant/-/tiny-invariant-1.1.0.tgz
-    version: 1.1.0
-  registry.npmjs.org/tiny-warning/1.0.3:
-    dev: false
-    name: tiny-warning
-    resolution:
-      integrity: sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/tiny-warning/-/tiny-warning-1.0.3.tgz
-    version: 1.0.3
   registry.npmjs.org/to-fast-properties/2.0.0:
     dev: false
     engines:
