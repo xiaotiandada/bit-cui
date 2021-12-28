@@ -1,1 +1,0 @@
-[{"filePath":"tile-sprite.tsx","name":"TileSprite","description":"","properties":[{"name":"text","description":"a text to be rendered in the component.","required":true,"type":"string"}],"access":"public","methods":[],"args":[],"examples":[]}]

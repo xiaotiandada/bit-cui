@@ -1,1 +1,0 @@
-[{"filePath":"jazzicons.tsx","name":"Jazzicons","description":"","properties":[{"name":"address","description":"a text to be rendered in the component.","required":true,"type":"string"}],"access":"public","methods":[],"args":[],"examples":[]}]
