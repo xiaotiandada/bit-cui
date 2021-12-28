@@ -39,6 +39,12 @@
         "mainFile": "index.ts",
         "rootDir": "src/components/common/icon"
     },
+    "common/more": {
+        "scope": "xiaotiandada.cui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/common/more"
+    },
     "dropdown": {
         "scope": "learn-harmony.design",
         "version": "0.0.4",
@@ -138,7 +144,7 @@
         "rootDir": "src/components/ui/test"
     },
     "ui/toggle-button": {
-        "scope": "",
+        "scope": "xiaotiandada.cui",
         "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "src/components/ui/toggle-button"
