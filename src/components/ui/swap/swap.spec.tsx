@@ -1,4 +1,4 @@
-import { swap } from "./swap";
+import React from "react";
 
 it("should show", () => {
   expect("");

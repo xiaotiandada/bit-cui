@@ -138,16 +138,10 @@
         "rootDir": "src/components/ui/loading"
     },
     "ui/swap": {
-        "scope": "",
-        "version": "",
+        "scope": "xiaotiandada.cui",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "src/components/ui/swap",
-        "nextVersion": {
-            "version": "patch",
-            "message": "swap",
-            "username": "xiaotiandada",
-            "email": "istianlei@qq.com"
-        }
+        "rootDir": "src/components/ui/swap"
     },
     "ui/test": {
         "scope": "xiaotiandada.cui",
@@ -160,6 +154,12 @@
         "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "src/components/ui/toggle-button"
+    },
+    "upload/cover": {
+        "scope": "xiaotiandada.cui",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/upload/cover"
     },
     "$schema-version": "14.9.0"
 }
