@@ -5,4 +5,5 @@
 
 ### Tailwind Components
 
-- Site: https://cui-tailwindcomponents.vercel.app/
+- Site: https://tailwindcomponents.com/u/xiaotiandada
+- Site: https://cui-tailwindcomponents.vercel.app
